@@ -118,15 +118,20 @@ margin:0;
     font-weight: normal;
 }
 
-
+::-webkit-scrollbar{
+    width:0;
+    background: transparent;
+}
 
 
  .bodymain{
     overflow-x: hidden;
+    overflow-y: i;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: no-repeat;
     height: 2693px;
+    
  }
  .bodyesa{
     overflow-x: hidden;
@@ -1069,10 +1074,11 @@ left: 0px;
 }
 .logospacerace{
     position: absolute;
-    top: 2280px;
-left: 144px;
-width: 272px;
-height: 92px;
+    top: 2230px;
+left: -100px;
+width: 812px;
+height: 197px;
+transform: scale(0.4);
 z-index: 9;
 
     
@@ -1754,9 +1760,7 @@ transform: rotate(-18deg) scale(3);
 .footeresa{
     position: absolute;
     top: 1290px;
-left: 1px;
-width: 1920px;
-height: 475px;
+    left: 0;
 }
 
 .h1ispace{
@@ -2750,7 +2754,7 @@ height: 504px;
 
 .footeresabudget{
     position: absolute;
-    top: -400px;
+    top: -300px;
     margin: 0;
     left:0;
 }
@@ -2821,7 +2825,7 @@ height: 504px;
 left: 1825px;
 width: 70px;
 height: 70px;
-z-index: 4;
+z-index: 1;
 }
 
 .boutonscrolllunejaune{
@@ -2830,7 +2834,7 @@ z-index: 4;
 left: 1825px;
 width: 70px;
 height: 70px;
-z-index: 4;
+z-index: 1;
 opacity: 0;
 }
 .scrollmission{
@@ -2846,7 +2850,7 @@ color: #FFFFFF;
 opacity: 0;
 font-size: 20px;
 transition: 0.2s;
-z-index: 3;
+z-index: 0;
 }
 
 
@@ -2865,7 +2869,7 @@ z-index: 3;
     left: 1825px;
     width: 70px;
     height: 70px;
-    z-index: 4;
+    z-index: 1;
 }
 .boutonscrollfuseejaune{
     position: fixed;
@@ -2873,13 +2877,13 @@ z-index: 3;
     left: 1825px;
     width: 70px;
     height: 70px;
-    z-index: 4;
+    z-index: 1;
     opacity: 0;
 }
 
 .scrolltech{
     position: fixed;
-    top:525px;
+    top:520px;
     left: 1788px;
     text-align: left;
 font-family: azo-sans-web, sans-serif;
@@ -2890,7 +2894,7 @@ color: #FFFFFF;
 opacity: 0;
 font-size: 20px;
 transition: 0.2s;
-z-index: 3;
+z-index: 0;
 }
 
 
@@ -2909,7 +2913,7 @@ z-index: 3;
 left: 1825px;
 width: 70px;
 height: 70px;
-z-index: 4;
+z-index: 1;
 }
 .boutonscrollplantejaune{
     position: fixed;
@@ -2919,12 +2923,12 @@ width: 70px;
 height: 70px;
 z-index: 8;
 opacity: 0;
-z-index: 4;
+z-index: 1;
 }
 
 .scrollplante{
     position: fixed;
-    top: 625px;
+    top: 620px;
     left: 1760px;
     text-align: left;
 font-family: azo-sans-web, sans-serif;
@@ -2935,7 +2939,7 @@ color: #FFFFFF;
 opacity: 0;
 font-size: 20px;
 transition: 0.2s;
-z-index: 3;
+z-index: 0;
 
 }
 
@@ -2955,7 +2959,7 @@ opacity: 1;
 left: 1825px;
 width: 70px;
 height: 70px;
-z-index: 4;
+z-index: 1;
 
 
 }
@@ -2967,7 +2971,7 @@ width: 70px;
 height: 70px;
 z-index: 8;
 opacity: 0;
-z-index: 4;
+z-index: 1;
 }
 
 .boutonspiece:hover .boutonscrollpiecejaune{
@@ -2981,7 +2985,7 @@ opacity: 1;
 
 .scrollbudget{
     position: fixed;
-    top:725px;
+    top:720px;
     left:1825px;
     text-align: left;
 font-family: azo-sans-web, sans-serif;
@@ -2992,8 +2996,9 @@ color: #FFFFFF;
 opacity: 0;
 font-size: 20px ;
 transition: 0.2s;
-z-index: 3;
+z-index: 0;
 }
+
 
 .block{
     position: absolute;
@@ -3003,6 +3008,34 @@ z-index: 3;
     width:0px;
     border: 130px solid #000023;
    box-shadow: 0 0 20px 20px #000023;
-   z-index: 9;
+   z-index: 2;
+}
+ .imgblock{
+    position: absolute;
+    left: -130px;
+    top: -120px
+
+
+}
+
+
+.fondetoiles{
+    position: absolute;
+    z-index: 0;
+}
+
+.fondetoiles2{
+    position: absolute;
+    top: 1500px;
+}
+
+.fondetoiles3{
+    position: absolute;
+    top: 2200px;
+}
+
+.fondetoiles4{
+    position: absolute;
+    top: 3200px;
 }
 
