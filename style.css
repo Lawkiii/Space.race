@@ -3025,3 +3025,182 @@ z-index: 0;
     top: 3200px;
 }
 
+.socle{
+position: absolute;
+top: 600px;
+left: 800px;
+}
+
+.dataviz0{
+position: absolute;
+left: 800px;
+top: 250px;
+z-index: 8;
+}
+.dataviz1{
+position: absolute;
+opacity: 0;
+left: 800px;
+top: 250px;
+z-index: 8;
+}
+.dataviz2{
+position: absolute;
+opacity: 0;
+left: 800px;
+top: 250px;
+z-index: 8;
+}
+.dataviz3{
+position: absolute;
+opacity: 0;
+left: 800px;
+top: 250px;
+z-index: 8;
+}
+.dataviz4{
+position: absolute;
+opacity: 0;
+left: 800px;
+top: 250px;
+z-index: 8;
+}
+
+
+.btn1{
+    position:absolute;
+    top: 400px;
+left: 830px;
+width: 80px;
+height: 60px;
+background: transparent 0% 0% no-repeat padding-box;
+border-radius: 40px;
+opacity: 1;
+z-index: 8;
+}
+.btn2{
+    position:absolute;
+    top: 480px;
+left: 900px;
+width: 80px;
+height: 50px;
+background: transparent 0% 0% no-repeat padding-box;
+border-radius: 40px;
+opacity: 1;
+z-index: 8;
+}
+.btn3{
+    position:absolute;
+    top: 415px;
+left: 975px;
+width: 80px;
+height: 50px;
+background: transparent 0% 0% no-repeat padding-box;
+border-radius: 40px;
+opacity: 1;
+z-index: 8;
+}
+.btn4{
+    position:absolute;
+    top: 473px;
+left: 1040px;
+width: 80px;
+height: 50px;
+background: transparent 0% 0% no-repeat padding-box;
+border-radius: 40px;
+opacity: 1;
+z-index: 8;
+}
+.btn5{
+    position:absolute;
+    top: 408px;
+left: 1105px;
+width: 80px;
+height: 50px;
+background: transparent 0% 0% no-repeat padding-box;
+border-radius: 40px;
+opacity: 1;
+z-index: 8;
+}
+.btn6{
+    position:absolute;
+    top: 470px;
+left: 1182px;
+width: 80px;
+height: 50px;
+background: transparent 0% 0% no-repeat padding-box;
+border-radius: 40px;
+opacity: 1;
+z-index: 8;
+}
+.btn7{
+    position:absolute;
+    top: 402px;
+left: 1252px;
+width: 80px;
+height: 50px;
+background: transparent 0% 0% no-repeat padding-box;
+border-radius: 40px;
+opacity: 1;
+z-index: 8;
+}
+.btn8{
+    position:absolute;
+    top: 444px;
+left: 1333px;
+width: 80px;
+height: 60px;
+background: transparent 0% 0% no-repeat padding-box;
+border-radius: 40px;
+opacity: 1;
+z-index: 8;
+}
+
+.btn1:hover{
+   box-shadow: 0 0 20px 20px #C61ED8 ;
+ filter: drop-shadow(#C61ED8 0px 0px 20px);
+ opacity: 0.5;
+ z-index: 7;
+}
+.btn2:hover{
+    box-shadow: 0 0 20px 20px #C61ED8 ;
+    filter: drop-shadow(#C61ED8 0px 0px 20px);
+    opacity: 0.5;
+    z-index: 7;
+}
+.btn3:hover{
+    box-shadow: 0 0 20px 20px #C61ED8 ;
+    filter: drop-shadow(#C61ED8 0px 0px 20px);
+    opacity: 0.5;
+    z-index: 7;
+}
+.btn4:hover{
+    box-shadow: 0 0 20px 20px #C61ED8 ;
+    filter: drop-shadow(#C61ED8 0px 0px 20px);
+    opacity: 0.5;
+    z-index: 7;
+}
+.btn5:hover{
+    box-shadow: 0 0 20px 20px #C61ED8 ;
+    filter: drop-shadow(#C61ED8 0px 0px 20px);
+    opacity: 0.5;
+    z-index: 7;
+}
+.btn6:hover{
+    box-shadow: 0 0 20px 20px #C61ED8 ;
+    filter: drop-shadow(#C61ED8 0px 0px 20px);
+    opacity: 0.5;
+    z-index: 7;
+}
+.btn7:hover{
+    box-shadow: 0 0 20px 20px #C61ED8 ;
+    filter: drop-shadow(#C61ED8 0px 0px 20px);
+    opacity: 0.5;
+    z-index: 7;
+}
+.btn8:hover{
+    box-shadow: 0 0 20px 20px #C61ED8 ;
+    filter: drop-shadow(#C61ED8 0px 0px 20px);
+    opacity: 0.5;
+    z-index: 7;
+}
