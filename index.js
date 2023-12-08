@@ -3,6 +3,7 @@ const boutonfusee=document.querySelector(".fusee")
 const boutonplante=document.querySelector(".plante")
 const boutonpiece=document.querySelector(".piece")
 
+const dataviz=document.querySelector(".dataviz9")
 const dataviz0 = document.querySelector(".dataviz0")
 const dataviz1 = document.querySelector(".dataviz1")
 const dataviz2 = document.querySelector(".dataviz2")
@@ -66,12 +67,48 @@ const boutonbas = document.querySelector(".boutonbas")
 
 const texte = document.querySelector(".texte1")
 
+const paralax = document.querySelectorAll(".paralax")
+
+const main = document.querySelector("index.html")
+
+const esa = document.querySelector("esa.html")
+
 let fonction1active = false;
 let fonction2active = false;
 let fonction3active = false;
 let fonction4active = false;
 
+function parallax1(e){
+    console.log(e.pageX, e.pageY)
+    let x = e.pageX;
+    let y = e.pageY;
+    dataviz.style.transform = 'translate(' +x/100+'px,'+y/100+'px)';
+}
 
+function parallax2(e){
+    console.log(e.pageX, e.pageY)
+    let x = e.pageX;
+    let y = e.pageY;
+    paralax[0].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[1].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[2].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[3].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[4].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[5].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[6].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[7].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[8].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[9].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[10].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[11].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[12].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[13].style.transform='translate('+x/100+'px, '+y/100+'px)';
+    paralax[14].style.transform='translate('+x/100+'px, '+y/100+'px)';
+}
+
+
+document.addEventListener("mousemove", parallax1)
+document.addEventListener("mousemove", parallax2)
 
 
 function btnlune(){
@@ -579,3 +616,4 @@ function btnplus8click(){
         console.log("nasa redirection 4")
     }
 }
+
