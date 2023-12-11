@@ -73,10 +73,14 @@ const main = document.querySelector("index.html")
 
 const esa = document.querySelector("esa.html")
 
+const boutonscroll = document.querySelector(".boutonscroll")
+
 let fonction1active = false;
 let fonction2active = false;
 let fonction3active = false;
 let fonction4active = false;
+
+
 
 function parallax1(e){
     console.log(e.pageX, e.pageY)
@@ -353,7 +357,7 @@ function btn1click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonbas.style.top="1028px";
+    boutonscroll.style.top="1028px";
 }
 function btn2click(){
     ispaceclick.style.visibility="visible";
@@ -369,7 +373,7 @@ function btn2click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonbas.style.top="1028px";
+    boutonscroll.style.top="1028px";
 }
 function btn3click(){
     spacexclick.style.visibility="visible";
@@ -385,7 +389,7 @@ function btn3click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonbas.style.top="1028px";
+    boutonscroll.style.top="1028px";
 }
 function btn4click(){
     gamaclick.style.visibility="visible";
@@ -401,7 +405,7 @@ function btn4click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonbas.style.top="1028px";
+    boutonscroll.style.top="1028px";
 }
 function btn5click(){
     blueclick.style.visibility="visible";
@@ -417,7 +421,7 @@ function btn5click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonbas.style.top="1028px";
+    boutonscroll.style.top="1028px";
 }
 function btn6click(){
     prometheeclick.style.visibility="visible";
@@ -433,7 +437,7 @@ function btn6click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonbas.style.top="1028px";
+    boutonscroll.style.top="1028px";
 }
 
 function btn7click(){
@@ -450,7 +454,7 @@ function btn7click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonbas.style.top="1028px";
+    boutonscroll.style.top="1028px";
 }
 function btn8click(){
     nasaclick.style.visibility="visible";
@@ -466,7 +470,7 @@ function btn8click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonbas.style.top="1028px";
+    boutonscroll.style.top="1028px";
 }
 
 btnplus1.addEventListener("click",btnplus1click)
@@ -617,3 +621,11 @@ function btnplus8click(){
     }
 }
 
+boutonscroll.addEventListener("click",()=>{
+    window.scrollTo({
+        top : 1123,
+        left: 0,
+        
+
+    })
+})

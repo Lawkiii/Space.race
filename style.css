@@ -117,6 +117,10 @@ margin:0;
     src: url(astral_delight/Astral\ Delight\ Black\ Upright.ttf);
     font-weight: normal;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 
 ::-webkit-scrollbar{
     width:0;
@@ -850,6 +854,21 @@ opacity: 1;
     height: 122px;
     
 }
+.boutonbasjaune {
+    position: absolute;
+    top: 928px;
+    left: 899px;
+    width: 122px;
+    height: 122px;
+    rotate: 90deg;
+   opacity: 0;
+}
+
+.boutonscroll:hover .boutonbasjaune {
+opacity: 1;
+}
+
+
 
 .h23{
     position: absolute;
@@ -3434,5 +3453,15 @@ z-index: 8;
     filter: drop-shadow(#C61ED8 0px 0px 20px);
     opacity: 0.3;
     z-index: 10;
+}
+
+.h3esatech1{
+    font-weight:bold;
+}
+.h3esatech2{
+    font-weight:bold;
+}
+.h3esatech3{
+    font-weight:bold;
 }
 
