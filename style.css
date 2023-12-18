@@ -130,53 +130,97 @@ html{
 
  .bodymain{
     overflow-x: hidden;
-    overflow-y: i;
+    
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: no-repeat;
     height: 2693px;
     
  }
+@media screen and (max-width: 1990px){
+    .bodymain{
+        background-repeat: repeat;
+        
+    }
+    
+}
+@media screen and (max-width: 1400px){
+    .bodymain{
+        background-repeat: repeat;
+        overflow-x: visible;
+    }
+    
+}
+@media screen and (max-width: 100px){
+    .bodymain{
+        background-repeat: repeat;
+        overflow-x: visible;
+        
+    }
+
+    .bodyesa{
+        overflow-x: visible;
+    }
+    .bodybudget{
+        overflow-x: visible;
+    }
+    .bodyispace{
+        overflow-x: visible;
+    }
+    .bodyplante1{
+        overflow-x: visible;
+    }
+    .bodytech1{
+        overflow-x: visible;
+    }
+    .bodytech2{
+        overflow-x: visible;
+    }
+
+
+}
+
+
  .bodyesa{
     overflow-x: hidden;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: 3984px;
  }
  .bodyispace{
     overflow-x: hidden;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: 4102px;
  }
  .bodybudget{
     overflow-x: hidden;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: 2102px;
  }
  .bodyplante1{
     overflow-x: hidden;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: 2212px;
  }
  .bodytech1{
     overflow-x: hidden;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: 5982px;
  }
  .bodytech2{
     overflow-x: hidden;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: 2582px;
  }
 
