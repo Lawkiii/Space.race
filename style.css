@@ -14,7 +14,7 @@ margin:0;
     --unnamed-color-000023: #000023;
     
     /* Font/text values */
-    --unnamed-font-family-astral-delight-black: Astral Delight Black;
+    --unnamed-font-family-astral-delight-black: 'astral_delight_black';
     --unnamed-font-family-azo-sans: Azo Sans;
     --unnamed-font-style-normal: normal;
     --unnamed-font-weight-300: 300px;
@@ -1815,7 +1815,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 160px/149px Astral Delight Black;
+font: normal normal normal 160px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -1862,7 +1862,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 120px/149px Astral Delight Black;
+font: normal normal normal 120px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -2037,7 +2037,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 160px/149px Astral Delight Black;
+font: normal normal normal 160px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -2071,7 +2071,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 120px/149px Astral Delight Black;
+font: normal normal normal 120px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -2305,7 +2305,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 160px/149px Astral Delight Black;
+font: normal normal normal 160px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -2321,7 +2321,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 160px/149px Astral Delight Black;
+font: normal normal normal 160px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -2362,7 +2362,7 @@ height: 146px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 140px/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 140px/149px Astral Delight Black;
+font: normal normal normal 140px/149px 'astral_delight_black';
 letter-spacing: -1.4px;
 color: #FFFFFF;
 opacity: 1;
@@ -2403,7 +2403,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 140px/149px Astral Delight Black;
+font: normal normal normal 140px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -2446,7 +2446,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 160px/149px Astral Delight Black;
+font: normal normal normal 160px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -2486,7 +2486,7 @@ height: 246px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 140px/100px var(--unnamed-font-family-astral-delight-black);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 140px/100px Astral Delight Black;
+font: normal normal normal 140px/100px 'astral_delight_black';
 letter-spacing: -1.4px;
 color: #FFFFFF;
 opacity: 1;
@@ -2527,7 +2527,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 120px/149px Astral Delight Black;
+font: normal normal normal 120px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -2764,7 +2764,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 120px/149px Astral Delight Black;
+font: normal normal normal 120px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -2840,7 +2840,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 120px/149px Astral Delight Black;
+font: normal normal normal 120px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -2888,7 +2888,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 120px/149px Astral Delight Black;
+font: normal normal normal 120px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -2952,7 +2952,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 120px/149px Astral Delight Black;
+font: normal normal normal 120px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -3023,7 +3023,7 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-font: normal normal normal 120px/149px Astral Delight Black;
+font: normal normal normal 120px/149px 'astral_delight_black';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
