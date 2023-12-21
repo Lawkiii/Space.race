@@ -19,7 +19,7 @@ margin:0;
     --unnamed-font-style-normal: normal;
     --unnamed-font-weight-300: 300px;
     --unnamed-font-weight-normal: normal;
-    --unnamed-font-weight-bold: bold;
+    
     --unnamed-font-size-35: 35px;
     --unnamed-font-size-45: 45px;
     --unnamed-font-size-120: 120px;
@@ -1454,7 +1454,7 @@ font-weight: 200;
 
 .acteurs{
     position: absolute;
-    top: 2269px;
+    top: 2249px;
 left: 830px;
 width: 153px;
 height: 63px;
@@ -1464,11 +1464,12 @@ color: var(--unnamed-color-ffffff);
 text-align: left;
 font-family: azo-sans-web, sans-serif;
     font-style: normal;
-    font-weight: 200 bold;
+    font-weight:  bold;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 z-index: 9; 
+font-size: 40px;
 }
 
 .esa2{
@@ -1693,11 +1694,12 @@ color: var(--unnamed-color-ffffff);
 text-align: center;
 font-family: azo-sans-web, sans-serif;
     font-style: normal;
-    font-weight: 200 bold;
+    font-weight:  bold;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1; 
 z-index: 9;
+font-size: 20px;
 }
 
 
@@ -1834,7 +1836,7 @@ opacity: 1;
     height: 197px;
     font-family: azo-sans-web, sans-serif;
     font-style: normal;
-    font-weight: 100 lighter;
+    font-weight: 200;
     text-align: left;
     letter-spacing: 0px;
     color: #FFFFFF;
@@ -1849,11 +1851,12 @@ opacity: 1;
     height: 145px;
     font-family: azo-sans-web, sans-serif;
     font-style: normal;
-    font-weight: 100 lighter;
+    font-weight: 200;
     text-align: left;
     letter-spacing: 0px;
-    color: white;
+    color: #FFFFFF;
     opacity: 1;
+    z-index: 5;
     
 }
 
@@ -1875,7 +1878,7 @@ opacity: 1;
 
 .h3esapasse{
     position: absolute;
-    top: 1171px;
+    top: 1151px;
 left: 140px;
 width: 219px;
 height: 83px;
@@ -1888,6 +1891,7 @@ font-family: azo-sans-web, sans-serif;
 letter-spacing: 1.3px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 
@@ -1915,7 +1919,7 @@ left: 1624px;
 
 .h3esaencours{
     position: absolute;
-    top: 1845px;
+    top: 1825px;
 left: 968px;
 width: 570px;
 height: 83px;
@@ -1928,6 +1932,7 @@ font-family: azo-sans-web, sans-serif;
 letter-spacing: 1.3px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 .esasatelite1 {
@@ -1975,20 +1980,19 @@ z-index: 6;
 left: 970px;
 width: 1010px;
 height: 332px;
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-ffffff);
 font-family: azo-sans-web, sans-serif;
-    font-style: normal;
-    font-weight: 200;
+font-style: normal;
+font-weight: 200;
 text-align: left;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+z-index: 5;
 }
 
 .h3esafuture{
     position: absolute;
-    top: 2539px;
+    top: 2519px;
 left: 140px;
 width: 209px;
 height: 83px;
@@ -2000,6 +2004,7 @@ font-family: azo-sans-web, sans-serif;
 letter-spacing: 1.3px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 .textesa4{
@@ -2084,7 +2089,7 @@ opacity: 1;
 
 .h3ispace1{
     position: absolute;
-    top: 1171px;
+    top: 1151px;
 left: 140px;
 width: 735px;
 height: 83px;
@@ -2097,6 +2102,7 @@ font-family: azo-sans-web, sans-serif;
 letter-spacing: 1.3px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 .texteispace2{
@@ -2128,7 +2134,7 @@ height: 560px;
 
 .h3ispace2{
     position: absolute;
-    top: 1997px;
+    top: 1977px;
 left: 972px;
 width: 350px;
 height: 83px;
@@ -2141,6 +2147,7 @@ font-family: azo-sans-web, sans-serif;
 letter-spacing: 1.3px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 .texteispace3{
@@ -2161,7 +2168,7 @@ opacity: 1;
 
 .h3ispace3{
     position: absolute;
-    top: 2297px;
+    top: 2277px;
 left: 972px;
 width: 350px;
 height: 83px;
@@ -2174,6 +2181,7 @@ font-family: azo-sans-web, sans-serif;
 letter-spacing: 1.3px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 .texteispace4{
@@ -2189,11 +2197,12 @@ font-family: azo-sans-web, sans-serif;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+
 }
 
 .h3ispace4{
     position: absolute;
-    top: 2597px;
+    top: 2577px;
 left: 972px;
 width: 350px;
 height: 83px;
@@ -2206,6 +2215,7 @@ font-family: azo-sans-web, sans-serif;
 letter-spacing: 1.3px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 .texteispace5{
@@ -2540,7 +2550,7 @@ opacity: 1;
 
 .h3esatech1{
     position: absolute;
-    top: 1167px;
+    top: 1157px;
 left: 139px;
 width: 399px;
 height: 88px;
@@ -2554,6 +2564,7 @@ font-family: azo-sans-web, sans-serif;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 .esatexte1{
@@ -2582,7 +2593,7 @@ left: 1184px;
 
 .h3esatech2{
     position: absolute;
-    top: 2111px;
+    top: 2085px;
 left: 140px;
 width: 300px;
 height: 88px;
@@ -2596,6 +2607,7 @@ font-family: azo-sans-web, sans-serif;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 .esatexte2{
@@ -2659,7 +2671,7 @@ height: 325px;
 
 .h3esatech3{
     position: absolute;
-    top: 3513px;
+    top: 3493px;
 left: 140px;
 width: 398px;
 height: 88px;
@@ -2673,6 +2685,7 @@ font-family: azo-sans-web, sans-serif;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 .esatexte5{
@@ -2777,7 +2790,7 @@ opacity: 1;
 
 .h3ispacetech{
     position: absolute;
-    top: 1167px;
+    top: 1147px;
 left: 139px;
 width: 813px;
 height: 88px;
@@ -2791,6 +2804,7 @@ font-family: azo-sans-web, sans-serif;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 .ispacetexte1{
@@ -2965,7 +2979,7 @@ opacity: 1;
 
 .h3esabudget{
     position: absolute;
-    top: 1220px;
+    top: 1180px;
 left: 140px;
 width: 536px;
 height: 97px;
@@ -2975,10 +2989,11 @@ color: var(--unnamed-color-ffffff);
 text-align: left;
 font-family: azo-sans-web, sans-serif;
     font-style: normal;
-    font-weight: 200;
+    font-weight: bold;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 .textesabudget{
@@ -3036,7 +3051,7 @@ opacity: 1;
 
 .h3ispacebudget{
     position: absolute;
-    top: 1339px;
+    top: 1229px;
 left: 140px;
 width: 536px;
 height: 97px;
@@ -3046,10 +3061,11 @@ color: var(--unnamed-color-ffffff);
 text-align: left;
 font-family: azo-sans-web, sans-serif;
     font-style: normal;
-    font-weight: 200;
+    font-weight: bold;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+font-size: 70px;
 }
 
 .piecesispace{
