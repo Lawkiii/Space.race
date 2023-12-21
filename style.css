@@ -158,6 +158,11 @@ html{
         overflow-x: visible;
     }
 }
+@media screen and (min-width: 1800px){
+   .bodyesa{
+        overflow-x: hidden;
+    }
+}
 
 
  .bodyesa{
@@ -1925,14 +1930,14 @@ color: #FFFFFF;
 opacity: 1;
 }
 
-.esasatelite1{
+.esasatelite1 {
     position: absolute;
     top: 1757px;
 left: 142px;
 width: 258px;
 height: 258px;
-transform: rotate(45deg);
 z-index: 6;
+rotate: 45deg;
 }
 
 .esasatelite2{
@@ -1941,7 +1946,7 @@ z-index: 6;
 left: 195px;
 width: 133px;
 height: 135px;
-transform: rotate(-25deg);
+rotate:25deg;
 z-index: 6;
 }
 
@@ -1960,7 +1965,7 @@ z-index: 6;
 left: 704px;
 width: 200px;
 height: 201px;
-transform: rotate(-30deg);
+rotate:-30deg;
 z-index: 6;
 }
 
