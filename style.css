@@ -143,81 +143,60 @@ html{
         
     }
     
+
 }
-@media screen and (max-width: 1400px){
-    .bodymain{
-        background-repeat: repeat;
-        overflow-x: visible;
-    }
-    
-}
-@media screen and (max-width: 100px){
-    .bodymain{
-        background-repeat: repeat;
+@media screen and (max-width: 500px){
+    .bodyispace{
         overflow-x: visible;
         
     }
-
-    .bodyesa{
-        overflow-x: visible;
-    }
-    .bodybudget{
-        overflow-x: visible;
-    }
-    .bodyispace{
-        overflow-x: visible;
-    }
-    .bodyplante1{
-        overflow-x: visible;
-    }
-    .bodytech1{
-        overflow-x: visible;
-    }
-    .bodytech2{
-        overflow-x: visible;
-    }
+}
 
 
+@media screen and (max-width: 1500px){
+   .bodymain{
+        overflow-x: visible;
+    }
 }
 
 
  .bodyesa{
-    overflow-x: hidden;
+    overflow-x: visible;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: repeat;
     height: 3984px;
  }
  .bodyispace{
-    overflow-x: hidden;
+    overflow-x: visible;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: repeat;
     height: 4102px;
  }
  .bodybudget{
-    overflow-x: hidden;
+    overflow-x: visible;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: repeat;
     height: 2102px;
  }
  .bodyplante1{
-    overflow-x: hidden;
+    overflow-x: visible;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: repeat;
     height: 2212px;
  }
  .bodytech1{
-    overflow-x: hidden;
+    overflow-x: visible;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: repeat;
     height: 5982px;
  }
  .bodytech2{
-    overflow-x: hidden;
+    overflow-x: visible;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: repeat;
@@ -919,11 +898,9 @@ opacity: 1;
 left: 145px;
 width: 329px;
 height: 80px;
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 70px/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-ffffff);
+
 text-align: left;
-font: normal normal normal 70px/149px Astral Delight Black;
+font: normal normal normal 70px/149px 'astral_delight_black' ;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
