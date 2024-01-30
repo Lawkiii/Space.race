@@ -3,7 +3,7 @@ const boutonfusee=document.querySelector(".fusee")
 const boutonplante=document.querySelector(".plante")
 const boutonpiece=document.querySelector(".piece")
 
-const dataviz=document.querySelector(".dataviz9")
+const dataviz=document.querySelector(".dataviz")
 const dataviz0 = document.querySelector(".dataviz0")
 const dataviz1 = document.querySelector(".dataviz1")
 const dataviz2 = document.querySelector(".dataviz2")
@@ -125,14 +125,14 @@ function btnlune(){
     dataviz4.style.opacity="0";
     
     texte.innerHTML="Informez-vous sur le nombre de <br>missions effectuées par acteurs."
-    btn1.style.top="330px";
-    btn2.style.top="480px";
-    btn3.style.top="365px";
-    btn4.style.top="625px";
-    btn5.style.top="405px";
-    btn6.style.top="580px";
-    btn7.style.top="495px";
-    btn8.style.top="320px";
+    btn1.style.top="-10%";
+    btn2.style.top="25%";
+    btn3.style.top="-2%";
+    btn4.style.top="62%";
+    btn5.style.top="10%";
+    btn6.style.top="50%";
+    btn7.style.top="30%";
+    btn8.style.top="-12%";
     console.log("fonction 1");
     fonction2active=false;
     fonction3active=false;
@@ -141,7 +141,7 @@ function btnlune(){
 if (fonction1active){
     lunejaune.style.opacity="1";
     missions.style.opacity="1";
-    missions.style.left="1663px";
+    missions.style.left="80px";
     console.log("fonction 1 activé")
 }
 
@@ -177,14 +177,14 @@ function btnfusee(){
             dataviz4.style.opacity="0";
             
             texte.innerHTML="Informez-vous sur les dernières <br>technologies inventé par les acteurs."
-            btn1.style.top="390px";
-            btn2.style.top="560px";
-            btn3.style.top="300px";
-            btn4.style.top="605px";
-            btn5.style.top="380px";
-            btn6.style.top="580px";
-            btn7.style.top="542px";
-            btn8.style.top="320px";
+            btn1.style.top="5%";
+            btn2.style.top="47%";
+            btn3.style.top="-18%";
+            btn4.style.top="57%";
+            btn5.style.top="2%";
+            btn6.style.top="50%";
+            btn7.style.top="43%";
+            btn8.style.top="-13%";
             console.log("fonction 2");
     
     fonction1active=false;
@@ -200,7 +200,7 @@ if (!fonction1active){
  if (fonction2active){
     fuseejaune.style.opacity="1";
     tech.style.opacity="1";
-    tech.style.left="1663px";
+    tech.style.left="80px";
     console.log("fonction 2 activé")
 }
 
@@ -229,14 +229,14 @@ function btnplante(){
     dataviz4.style.opacity="0";
 
     texte.innerHTML="Informez-vous sur les acteurs qui <br>prenne en compte l'environnement <br>dans leur programme spatiale."
-    btn1.style.top="540px";
-    btn2.style.top="470px";
-    btn3.style.top="300px";
-    btn4.style.top="410px";
-    btn5.style.top="470px";
-    btn6.style.top="420px";
-    btn7.style.top="542px";
-    btn8.style.top="600px";
+    btn1.style.top="40%";
+    btn2.style.top="23%";
+    btn3.style.top="-18%";
+    btn4.style.top="8%";
+    btn5.style.top="23%";
+    btn6.style.top="12%";
+    btn7.style.top="43%";
+    btn8.style.top="55%";
     console.log("fonction 3 ")
 
     fonction1active=false;
@@ -246,7 +246,7 @@ function btnplante(){
     if (fonction3active){
         plantejaune.style.opacity="1";
         environnement.style.opacity="1";
-        environnement.style.left="1663px";
+        environnement.style.left="80px";
         console.log("fonction 3 activé")
     }
 
@@ -282,14 +282,14 @@ function btnpiece(){
     dataviz4.style.opacity="1";
 
     texte.innerHTML="Informez-vous sur le budget des <br>acteurs principaux de la course à <br>l'espace."
-    btn1.style.top="330px";
-    btn2.style.top="457px";
-    btn3.style.top="340px";
-    btn4.style.top="618px";
-    btn5.style.top="360px";
-    btn6.style.top="550px";
-    btn7.style.top="475px";
-    btn8.style.top="310px";
+    btn1.style.top="-12%";
+    btn2.style.top="21%";
+    btn3.style.top="-8%";
+    btn4.style.top="60%";
+    btn5.style.top="-3%";
+    btn6.style.top="43%";
+    btn7.style.top="25%";
+    btn8.style.top="-15%";
     console.log("fonction 4 active")
 
     fonction1active=false;
@@ -298,8 +298,8 @@ function btnpiece(){
 
     if (fonction4active){
         piecejaune.style.opacity="1";
-        tech.style.opacity="1";
-        tech.style.left="";
+        budget.style.opacity="1";
+        budget.style.left="80px";
         console.log("fonction 4 activé")
     }
 
@@ -357,7 +357,7 @@ function btn1click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonscroll.style.top="1028px";
+    boutonscroll.style.top="35px";
 }
 function btn2click(){
     ispaceclick.style.visibility="visible";
@@ -373,7 +373,7 @@ function btn2click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonscroll.style.top="1028px";
+    boutonscroll.style.top="35px";
 }
 function btn3click(){
     spacexclick.style.visibility="visible";
@@ -389,7 +389,7 @@ function btn3click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonscroll.style.top="1028px";
+    boutonscroll.style.top="35px";
 }
 function btn4click(){
     gamaclick.style.visibility="visible";
@@ -405,7 +405,7 @@ function btn4click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonscroll.style.top="1028px";
+    boutonscroll.style.top="35px";
 }
 function btn5click(){
     blueclick.style.visibility="visible";
@@ -421,7 +421,7 @@ function btn5click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonscroll.style.top="1028px";
+    boutonscroll.style.top="35px";
 }
 function btn6click(){
     prometheeclick.style.visibility="visible";
@@ -437,7 +437,7 @@ function btn6click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonscroll.style.top="1028px";
+    boutonscroll.style.top="35px";
 }
 
 function btn7click(){
@@ -454,7 +454,7 @@ function btn7click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonscroll.style.top="1028px";
+    boutonscroll.style.top="35px";
 }
 function btn8click(){
     nasaclick.style.visibility="visible";
@@ -470,7 +470,7 @@ function btn8click(){
     forme2.style.visibility="hidden";
     acteur1.style.visibility="hidden";
     acteur2.style.visibility="hidden";
-    boutonscroll.style.top="1028px";
+    boutonscroll.style.top="35px";
 }
 
 btnplus1.addEventListener("click",btnplus1click)

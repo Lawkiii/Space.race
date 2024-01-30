@@ -119,6 +119,7 @@ margin:0;
 }
 html{
     scroll-behavior: smooth;
+    
 }
 
 
@@ -128,106 +129,2068 @@ html{
 }
 
 
- .bodymain{
-    overflow-x: hidden;
+ 
+@media screen and (max-width: 1910px) and (min-width: 1725px){
+    #couleur1{
+        scale: 0.8;
+        left: 0%;
+        right: 0%
+        
+    }
+
     
-    background: linear-gradient(to top, #3700CE , #000023 60% ) ;
-    background-size:auto;
-    background-repeat: no-repeat;
-    height: 2693px;
+}
+
+@media screen and (min-width: 1910px){
+    #div1tech{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:1000px 
+    }
+    #divtech1{
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+        top: 1000px
+    }
+    #divtech2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 2100px;
+        left: 0;
+    }
+    #divtech3{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 3400px;
+        left: 0;
+    }
+    .footermaintech{
+        position: absolute;
+        top: 550%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    .footermaintech2{
+        position: absolute;
+        top: 250%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    .bodytech1 {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 5500px;
+        width: 1920px;
+    }
+    .sateliteesaplant{
+        position: absolute;
+        top: 30%;
+    left: 48%;
+    scale: 0.8;
     
- }
-@media screen and (max-width: 1990px){
-    .bodymain{
-        background-repeat: repeat;
+    }
+    
+    .planeteesaplant{
+        position: absolute;
+        top: 50%;
+    left: 70%;
+    
+    }
+    .bodyplante1 {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 2100px;
+        width: 1920px;
+    }
+    .footermainplante{
+        position: absolute;
+        top: 220%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    #divplante1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 1000px;
+        left: 0;
+    }
+    .piecesesa{
+        position: absolute;
+        top: -75%;
+    left: 113%;
+    
+    }
+    
+    .flechesa{
+        position: absolute;
+        top: -95%;
+        left: 155%;
+    }
+    #divbudget1{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 110%;
+    left: 0; 
+   }
+    .satelitemoon{
+        position: absolute;
+        top: 0;
+    left: 15%;
+    
+    }
+    .fuseenasa{
+        position: absolute;
+        top: -10%;
+    left: 15%;
+    scale: 0.9;
+    
+    }
+    .planetepromethee{
+        position: absolute;
+        top: 0;
+    left: 15%;
+    }
+    .fuseeblue{
+        position: absolute;
+        top:-10%;
+    left: 15%;
+    
+    }
+    .coupe3d{
+        position: absolute;
+        top: 20%;
+    left: 60%;
+    width: 352px;
+    height: 560px;
+    
+    }
+    .div2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 120%;
+        left: 0;
+    }
+    .rover3d{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .div3{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 210%;
+        left: 0;
+    }
+    .satelite3dispace{
+        position: absolute;
+        top: 0;
+    left: 15%;
+    width: 448.2px;
+    height: 531.9px;
+    }
+    .capsulespacex{
+        position: absolute;
+        top: 0;
+    left: 20%;
+    width: 326.4px;
+    height: 419.2px;
+    rotate: 15deg;
+    }
+    
+    #btnscroll{
+        position: fixed;
+        top: 61%;
+        left: 87.5%;
+        width: 260px;
+        height: 560px;
+        z-index: 1;
+    }
+    .block{
+        position:absolute;
+        
+        left: 86%;
+        top:25%;
+        height: 300px;
+        width:0px;
+        border: 130px solid #000023;
+       box-shadow: 0 0 20px 20px #000023;
+       z-index: 2;
+    }
+    .bodyispace {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 4100px;
+        width: 1920px;
+    }
+    .bodyesa {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 3700px;
+        width: 1920px;
+    }
+    body {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 2800px;
+        width: 1920px;
+    }
+    .bodybudget {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 2000px;
+        width: 1920px;
+    }
+    .footermain1{
+        position: absolute;
+        top: 390%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    .footermain4{
+        position: absolute;
+        top: 210%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    .footermain2{
+        position: absolute;
+        top: 390%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    #div4{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 280%;
+        left: 0;
+    }
+    #div3{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 200%;
+        left: 0;
+        z-index: 0;
+    }
+    #div2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 120%;
+    
+    }
+    
+    .boutondroitebleu{
+        position: absolute;
+        top: 40%;
+        right: 5%;
+        width: 110px;
+        height: 110px;
+        z-index: 10;
+    }
+    
+    .boutondroitejaune{
+        position: absolute;
+        top: 40%;
+        right: 5%;
+        width: 110px;
+        height: 110px;
+        opacity: 0;
+        z-index: 10;
+    }
+    
+    .fusee3desa{
+        position: absolute;
+        top: -10%;
+        left: 15%;
+        
+    }
+    .satelitegama{
+        position: absolute;
+        top: 0%;
+    left: 15%;
+    width: 357px;
+    height: 377px;
+    }
+    #div1{
+        position: absolute;
+        scale: 0.9;
+        width: 100%;
+        height: 80%;
+        top: 30%;
+        left: -8%;
+    }
+    
+    
+    #couleur1{
+        scale: 1;
+        left: 7%;
+        right: 7%;
+        top: 130%;
+        
+    }
+    .spacexbox{
+        position: absolute;
+        top: 0;
+        
+        right:418px;
+        width: 400px;
+        height: 400px; 
+    }
+    .gamabox{
+        position: absolute;
+        top: 0;
+        
+        right: 0;
+        width: 400px;
+        height: 400px; 
+    }
+    .bluebox{
+        position: absolute;
+        top: 450px;
+        left: 0;
+        width: 400px;
+        height: 400px; 
+    }
+    .prometheebox{
+        position: absolute;
+        top: 450px;
+        left: 418px;
+        width: 400px;
+        height: 400px; 
+    }
+    .nasabox{
+        position: absolute;
+        top: 450px;
+        
+        right:418px;
+        width: 400px;
+        height: 400px; 
+    }
+    .moonbox{
+        position: absolute;
+        top: 450px;
+        right:0;
+        width: 400px;
+        height: 400px; 
+    }
+
+    .boutoninfo{
+        position: relative;
+        top: -20%;
+        left: 82%;
+    
+    }
+    #titre{
+        position: absolute;
+        top: 25%;
+        left: 7%;
+    }
+    .dataviz{
+        position: relative;
+        top: 30%;
+        left: 40%;
+        width: 518.3px;
+        height: 411px;
+    }
+    .footermain{
+        position: absolute;
+        top: 245%;
+        left: 0;
+        width: 100%;
+        height:490px;
+    }
+
+    .footertxt{
+        position: relative;
+        top: 20%;
+        left: 0%;
+        width: 500px;
+        height: 300px; 
+    }
+
+    .reseau{
+        position: absolute;
+        top: 25%;
+        left: 80%;
+        
+    }
+    .acteursfooter{
+        position: absolute;
+        top: 15%;
+        left: 45%;
+        width: 500px;
+        height: 300px
+    }
+
+    .h23{
+        top: 109%;
+        left: 7.5%;
+    }
+    .boutonscroll{
+        position:relative;
+        top: -5em;
+        left: -33%;
+        width: 122px;
+        height: 122px;
+       
+    }
+
+    .esasatelite1 {
+        position: absolute;
+        top: 0;
+    left: 142px;
+    width: 258px;
+    height: 258px;
+    z-index: 6;
+    rotate: 45deg;
+    }
+    
+    .esasatelite2{
+        position: absolute;
+        top: 42%;
+    left: 10%;
+    width: 133px;
+    height: 135px;
+    rotate:25deg;
+    z-index: 6;
+    }
+    
+    .esasatelite3{
+        position: absolute;
+        top: 18%;
+    left: 18%;
+    width: 330px;
+    height: 349px;
+    z-index: 6;
+    }
+    
+    .esasatelite4{
+        position: absolute;
+        top: 20%;
+    left: 35%;
+    width: 200px;
+    height: 201px;
+    rotate:-30deg;
+    z-index: 6;
+    }
+    .esasatelite5{
+        position: absolute;
+        top: 20%;
+    left: 50%;
+    
+    }
+    .fusee3desa3{
+        position: absolute;
+        top: 10%;
+    left: 58%;
+    
+    }
+    
+    .fusee3desa2{
+        position: absolute;
+        top: 0;
+    left: 70%;
+    
+    }
+    
+    .fusee3desa4{
+        position: absolute;
+        top: 0;
+        left: 80%;
+    
+    }
+    
+}
+@media screen and (max-width: 1800px){
+    
+    .boutondroitebleu{
+        position: absolute;
+        top: 40%;
+        right: 0%;
+        width: 110px;
+        height: 110px;
+        z-index: 10;
+    }
+    
+    .boutondroitejaune{
+        position: absolute;
+        top: 40%;
+        right: 0%;
+        width: 110px;
+        height: 110px;
+        opacity: 0;
+        z-index: 10;
+    }
+}
+@media screen and (max-width: 1920px){
+    .footermaintech2{
+        position: absolute;
+        top: 250%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    #div1tech{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:1000px 
+    }
+    #divtech1{
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+        top: 1000px
+    }
+    #divtech2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 2100px;
+        left: 0;
+    }
+    #divtech3{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 3400px;
+        left: 0;
+    }
+    .footermaintech{
+        position: absolute;
+        top: 550%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    .bodytech1 {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 5500px;
+        width: 1920px;
+    }
+    .sateliteesaplant{
+        position: absolute;
+        top: 30%;
+    left: 48%;
+    scale: 0.8;
+    
+    }
+    
+    .planeteesaplant{
+        position: absolute;
+        top: 50%;
+    left: 70%;
+    
+    }
+    .bodyplante1 {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 2100px;
+        width: 1920px;
+    }
+    .footermainplante{
+        position: absolute;
+        top: 220%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    #divplante1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 1000px;
+        left: 0;
+    }
+    .piecesesa{
+        position: absolute;
+        top: -75%;
+    left: 113%;
+    
+    }
+    
+    .flechesa{
+        position: absolute;
+        top: -95%;
+        left: 155%;
+    }
+    #divbudget1{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 110%;
+    left: 0; 
+   }
+    .satelitemoon{
+        position: absolute;
+        top: 0;
+    left: 15%;
+    
+    }
+    .fuseenasa{
+        position: absolute;
+        top: -10%;
+    left: 15%;
+    scale: 0.9;
+    
+    }
+    .planetepromethee{
+        position: absolute;
+        top: 0;
+    left: 15%;
+    }
+    .fuseeblue{
+        position: absolute;
+        top:-10%;
+    left: 15%;
+    
+    }
+    .coupe3d{
+        position: absolute;
+        top: 20%;
+    left: 60%;
+    width: 352px;
+    height: 560px;
+    
+    }
+    .div2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 120%;
+        left: 0;
+    }
+    .rover3d{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .div3{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 210%;
+        left: 0;
+    }
+    .satelite3dispace{
+        position: absolute;
+        top: 0;
+    left: 15%;
+    width: 448.2px;
+    height: 531.9px;
+    }
+    .capsulespacex{
+        position: absolute;
+        top: 0;
+    left: 20%;
+    width: 326.4px;
+    height: 419.2px;
+    rotate: 15deg;
+    }
+    
+    #btnscroll{
+        position: fixed;
+        top: 61%;
+        left: 87.5%;
+        width: 260px;
+        height: 560px;
+        z-index: 1;
+    }
+    .block{
+        position:absolute;
+        
+        left: 86%;
+        top:25%;
+        height: 300px;
+        width:0px;
+        border: 130px solid #000023;
+       box-shadow: 0 0 20px 20px #000023;
+       z-index: 2;
+    }
+    .bodyispace {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 4100px;
+        width: 1920px;
+    }
+    .bodyesa {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 3700px;
+        width: 1920px;
+    }
+    body {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 2800px;
+        width: 1920px;
+    }
+    .bodybudget {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 2000px;
+        width: 1920px;
+    }
+    .footermain1{
+        position: absolute;
+        top: 390%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    .footermain4{
+        position: absolute;
+        top: 210%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    .footermain2{
+        position: absolute;
+        top: 390%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    #div4{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 280%;
+        left: 0;
+    }
+    #div3{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 200%;
+        left: 0;
+        z-index: 0;
+    }
+    #div2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 120%;
+    
+    }
+    
+    .boutondroitebleu{
+        position: absolute;
+        top: 40%;
+        right: 5%;
+        width: 110px;
+        height: 110px;
+        z-index: 10;
+    }
+    
+    .boutondroitejaune{
+        position: absolute;
+        top: 40%;
+        right: 5%;
+        width: 110px;
+        height: 110px;
+        opacity: 0;
+        z-index: 10;
+    }
+    
+    .fusee3desa{
+        position: absolute;
+        top: -10%;
+        left: 15%;
+        
+    }
+    .satelitegama{
+        position: absolute;
+        top: 0%;
+    left: 15%;
+    width: 357px;
+    height: 377px;
+    }
+    #div1{
+        position: absolute;
+        scale: 0.9;
+        width: 100%;
+        height: 80%;
+        top: 30%;
+        left: -8%;
+    }
+    
+    
+    #couleur1{
+        scale: 1;
+        left: 7%;
+        right: 7%;
+        top: 130%;
+        
+    }
+    .spacexbox{
+        position: absolute;
+        top: 0;
+        
+        right:418px;
+        width: 400px;
+        height: 400px; 
+    }
+    .gamabox{
+        position: absolute;
+        top: 0;
+        
+        right: 0;
+        width: 400px;
+        height: 400px; 
+    }
+    .bluebox{
+        position: absolute;
+        top: 450px;
+        left: 0;
+        width: 400px;
+        height: 400px; 
+    }
+    .prometheebox{
+        position: absolute;
+        top: 450px;
+        left: 418px;
+        width: 400px;
+        height: 400px; 
+    }
+    .nasabox{
+        position: absolute;
+        top: 450px;
+        
+        right:418px;
+        width: 400px;
+        height: 400px; 
+    }
+    .moonbox{
+        position: absolute;
+        top: 450px;
+        right:0;
+        width: 400px;
+        height: 400px; 
+    }
+
+    .boutoninfo{
+        position: relative;
+        top: -20%;
+        left: 82%;
+    
+    }
+    #titre{
+        position: absolute;
+        top: 25%;
+        left: 7%;
+    }
+    .dataviz{
+        position: relative;
+        top: 30%;
+        left: 40%;
+        width: 518.3px;
+        height: 411px;
+    }
+    .footermain{
+        position: absolute;
+        top: 245%;
+        left: 0;
+        width: 100%;
+        height:490px;
+    }
+
+    .footertxt{
+        position: relative;
+        top: 20%;
+        left: 0%;
+        width: 500px;
+        height: 300px; 
+    }
+
+    .reseau{
+        position: absolute;
+        top: 25%;
+        left: 80%;
+        
+    }
+    .acteursfooter{
+        position: absolute;
+        top: 15%;
+        left: 45%;
+        width: 500px;
+        height: 300px
+    }
+
+    .h23{
+        top: 109%;
+        left: 7.5%;
+    }
+    .boutonscroll{
+        position:relative;
+        top: -5em;
+        left: -33%;
+        width: 122px;
+        height: 122px;
+       
+    }
+
+    .esasatelite1 {
+        position: absolute;
+        top: 0;
+    left: 142px;
+    width: 258px;
+    height: 258px;
+    z-index: 6;
+    rotate: 45deg;
+    }
+    
+    .esasatelite2{
+        position: absolute;
+        top: 42%;
+    left: 10%;
+    width: 133px;
+    height: 135px;
+    rotate:25deg;
+    z-index: 6;
+    }
+    
+    .esasatelite3{
+        position: absolute;
+        top: 18%;
+    left: 18%;
+    width: 330px;
+    height: 349px;
+    z-index: 6;
+    }
+    
+    .esasatelite4{
+        position: absolute;
+        top: 20%;
+    left: 35%;
+    width: 200px;
+    height: 201px;
+    rotate:-30deg;
+    z-index: 6;
+    }
+    .esasatelite5{
+        position: absolute;
+        top: 20%;
+    left: 50%;
+    
+    }
+    .fusee3desa3{
+        position: absolute;
+        top: 10%;
+    left: 58%;
+    
+    }
+    
+    .fusee3desa2{
+        position: absolute;
+        top: 0;
+    left: 70%;
+    
+    }
+    
+    .fusee3desa4{
+        position: absolute;
+        top: 0;
+        left: 80%;
+    
+    }
+    
+}
+@media screen and (max-width: 1470px){
+    .footermaintech2{
+        position: absolute;
+        top: 250%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    #div1tech{
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        top:800px ;
+        left: -12%;
+        scale: 0.8;
+    }
+    .bodytech1 {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 5200px;
+        width: 1920px;
+    }
+    #divtech1{
+        position: absolute;
+        width: 110%;
+        height: 110%; 
+        top: 1000px;
+        left: -5%;
+        scale: 0.9;
+    }
+    #divtech2{
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        top: 2100px;
+        left: -12%;
+        scale: 0.8;
+    }
+    #divtech3{
+        position: absolute;
+        width: 130%;
+        height: 130%;
+        top: 3200px;
+        left: -13%;
+        scale: 0.8;
+    }
+    .footermaintech{
+        position: absolute;
+        top: 650%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+   
+    .sateliteesaplant{
+        position: absolute;
+        top: 30%;
+    left: 56%;
+    scale: 0.8;
+    rotate: -10deg;
+    
+    }
+    
+    .planeteesaplant{
+        position: absolute;
+        top: 50%;
+    left: 85%;
+    
+    }
+    .bodyplante1 {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 2000px;
+        width: 1920px;
+    }
+    .footermainplante{
+        position: absolute;
+        top: 250%;
+        left: 0;
+        width: 100%;
+        height:490px;
         
     }
     
+    #divplante1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 800px;
+        left: -10%;
+        scale: 0.8;
+    }
+    .footermain4{
+        position: absolute;
+        top: 220%;
+        left: 0;
+        width: 100%;
+        height:490px;
+        
+    }
+    
+    .piecesesa{
+        position: absolute;
+        top: -75%;
+    left: 85%;
+    
+    }
+    
+    .flechesa{
+        position: absolute;
+        top: -95%;
+        left: 125%;
+    }
+    #divbudget1{
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        top: 110%;
+        left: -8%; 
+       }
+    .satelitemoon{
+        position: absolute;
+        top: -10%;
+    left: 8%;
+    scale:0.9;    
+    }
+    .fuseenasa{
+        position: absolute;
+        top: -10%;
+    left: 10%;
+    scale: 0.9;
+    
+    }
+    .planetepromethee{
+        position: absolute;
+        top: 0;
+    left: 10%;
+    }
+    .fuseeblue{
+        position: absolute;
+        top:-10%;
+    left: 15%;
+    
+    }
+    .satelitegama{
+        position: absolute;
+        top: 0%;
+    left: 10%;
+    width: 357px;
+    height: 377px;
+    }
+    .coupe3d{
+        position: absolute;
+        top: 20%;
+    left: 65%;
+    width: 352px;
+    height: 560px;
+    
+    }
+    .bodyispace {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 3000px;
+        width: 1920px;
+    }
+    .bodybudget {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 1800px;
+        width: 1920px;
+    }
+    .div2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 120%;
+        left: -5%;
+    }
+    .rover3d{
+        position: absolute;
+        top: 0;
+        left: -5%;
+    }
+    .div3{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 210%;
+        left: -10%;
+    }
+    .satelite3dispace{
+        position: absolute;
+        scale:0.9;
+        top: 0;
+    left: 9%;
+    width: 448.2px;
+    height: 531.9px;
+    }
+    #div1{
+        position: absolute;
+        scale:0.8;
+        width: 100%;
+        height: 80%;
+        top: 30%;
+        left: -10%;
+    }
+    #btnscroll{
+        position: fixed;
+        top: 61%;
+        left: 84%;
+        width: 260px;
+        height: 560px;
+        z-index: 1;
+    }
+    .block{
+        position:absolute;
+        scale: 1;
+        left: 84%;
+        top:25%;
+        height: 300px;
+        width:0px;
+        border: 130px solid #000023;
+       box-shadow: 0 0 20px 20px #000023;
+       z-index: 2;
+    }
+    body {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 2200px;
+        width: 1920px;
+    }
+    .bodyesa {
+        background: linear-gradient(to top, #3700CE , #000023 60% ) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 3474px;
+        width: 1920px;
+    }
+    .esasatelite1 {
+        position: absolute;
+        scale: 0.9;
+        top: 0;
+    left: 0%;
+    width: 258px;
+    height: 258px;
+    z-index: 8;
+    rotate: 45deg;
+    }
+    
+    .esasatelite2{
+        position: absolute;
+        scale: 1;
+        top: 42%;
+    left: 5%;
+    width: 133px;
+    height: 135px;
+    rotate:25deg;
+    z-index: 8;
+    }
+    
+    .esasatelite3{
+        position: absolute;
+        scale: 0.8;
+        top: 18%;
+    left: 10%;
+    width: 330px;
+    height: 349px;
+    z-index: 8;
+    }
+    
+    .esasatelite4{
+        position: absolute;
+        scale: 0.9;
+        top: 10%;
+    left: 30%;
+    width: 200px;
+    height: 201px;
+    rotate:-30deg;
+    z-index: 8;
+    }
+    .esasatelite5{
+        position: absolute;
+        scale: 0.9;
+        top: 20%;
+    left: 60%;
+    
+    }
+    .fusee3desa3{
+        position: absolute;
+        scale: 0.8;
+        top: 10%;
+        left: 70%;
+    
+    }
+    
+    .fusee3desa2{
+        position: absolute;
+        scale: 0.8;
+        top: 0;
+        left: 80%;
+    
+    }
+    
+    .fusee3desa4{
+        position: absolute;
+        scale: 0.8;
+        top: 0;
+        left: 90%;
+    
+    }
+    
+    #div2{
+        position: absolute;
+        scale:0.9;
+        width: 100%;
+        height: 100%;
+        left: -5%;
+        top: 120%;
+    
+    }
+    #div3{
+        position: absolute;
+        scale:0.9;
+        width: 100%;
+        height: 100%;
+        top: 200%;
+        left: -8%;
+        z-index: 0;
+    }
+    #div4{
+        position: absolute;
+        scale: 0.9;
+        width: 100%;
+        height: 100%;
+        top: 280%;
+        left: -10%;
+    }
+    
+}
+@media screen and (max-width: 1370px){
+    
+    .capsulespacex{
+        position: absolute;
+        scale: 0.9;
+        top: 0;
+    left: 15%;
+    width: 326.4px;
+    height: 419.2px;
+    rotate: 15deg;
+    }
+    .fusee3desa{
+        position: absolute;
+        top: -10%;
+        left: 10%;
+    }
+   
+    .boutondroitebleu{
+        position: absolute;
+        top: 40%;
+        right: -5%;
+        width: 110px;
+        height: 110px;
+        z-index: 10;
+    }
+    
+    .boutondroitejaune{
+        position: absolute;
+        top: 40%;
+        right: -5%;
+        width: 110px;
+        height: 110px;
+        opacity: 0;
+        z-index: 10;
+    }
+    .spacexbox{
+        position: absolute;
+        top: 450px;
+        left: 0;
+        width: 400px;
+        height: 400px; 
+    }
+    .gamabox{
+        position: absolute;
+        top: 450px;
+        left: 418px;
+        width: 400px;
+        height: 400px;
+    }
+    .bluebox{
+        position: absolute;
+        top: 900px;
+        left: 0;
+        width: 400px;
+        height: 400px; 
+    }
+    .prometheebox{
+        position: absolute;
+        top: 900px;
+        left: 418px;
+        width: 400px;
+        height: 400px; 
+    }
+    .nasabox{
+        position: absolute;
+        top: 1350px;
+        
+        left: 0;
+        width: 400px;
+        height: 400px; 
+    }
+    .moonbox{
+        position: absolute;
+        top: 1350px;
+        left: 418px;
+        width: 400px;
+        height: 400px; 
+    }
+    #couleur1{
+        scale: 0.8;
+        left: 25%;
+        right: 25%;
+        top: 120%;
+        
+    }
+    .footermain{
+        position: absolute;
+        top: 255%;
+        left: 0;
+        width: 100%;
+        height:490px;
+    }
 
+    .dataviz{
+        scale: 0.8
+    }
+
+    .boutoninfo{
+        position: relative;
+        top: -20%;
+        left: 90%;
+
+    
+    }
+
+    #titre{
+        position: absolute;
+        top: 25%;
+        left: -2%;
+        scale: 0.7;
+    }
+    .footertxt{
+        position: relative;
+        top: 20%;
+        left: -2%;
+        width: 500px;
+        height: 300px; 
+    }
+
+    .reseau{
+        position: absolute;
+        top: 25%;
+        left: 90%;
+        
+    }
+
+    .acteursfooter{
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        width: 500px;
+        height: 300px
+    }
+
+    .h23{
+        top: 100%;
+        left: 7.5%;
+    }
+
+    .boutonscroll{
+        position:absolute;
+        top: 15%;
+        left: -29%;
+        width: 122px;
+        height: 122px;
+       
+    }
+    
+    
+}
+@media screen and (max-width: 1280px){
+    .capsulespacex{
+        position: absolute;
+        scale: 0.8;
+        top: 0;
+    left: 13%;
+    width: 326.4px;
+    height: 419.2px;
+    rotate: 15deg;
+    }
+    .spacexbox{
+        position: absolute;
+        top: 450px;
+        left: 0;
+        width: 400px;
+        height: 400px; 
+    }
+    .gamabox{
+        position: absolute;
+        top: 450px;
+        left: 418px;
+        width: 400px;
+        height: 400px;
+    }
+    .bluebox{
+        position: absolute;
+        top: 900px;
+        left: 0;
+        width: 400px;
+        height: 400px; 
+    }
+    .prometheebox{
+        position: absolute;
+        top: 900px;
+        left: 418px;
+        width: 400px;
+        height: 400px; 
+    }
+    .nasabox{
+        position: absolute;
+        top: 1350px;
+        
+        left: 0;
+        width: 400px;
+        height: 400px; 
+    }
+    .moonbox{
+        position: absolute;
+        top: 1350px;
+        left: 418px;
+        width: 400px;
+        height: 400px; 
+    }
+    #couleur1{
+        scale: 0.8;
+        left: 25%;
+        right: 25%;
+        top: 120%;
+        
+    }
+    .footermain{
+        position: absolute;
+        top: 255%;
+        left: 0;
+        width: 100%;
+        height:490px;
+    }
+
+    .dataviz{
+        scale: 0.8
+    }
+
+    .boutoninfo{
+        position: relative;
+        top: -20%;
+        left: 90%;
+
+    
+    }
+
+    #titre{
+        position: absolute;
+        top: 25%;
+        left: -2%;
+        scale: 0.7;
+    }
+    .footertxt{
+        position: relative;
+        top: 20%;
+        left: -2%;
+        width: 500px;
+        height: 300px; 
+    }
+
+    .reseau{
+        position: absolute;
+        top: 25%;
+        left: 90%;
+        
+    }
+
+    .acteursfooter{
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        width: 500px;
+        height: 300px
+    }
+
+    .h23{
+        top: 100%;
+        left: 7.5%;
+    }
+
+    .boutonscroll{
+        position:absolute;
+        top: 15%;
+        left: -29%;
+        width: 122px;
+        height: 122px;
+       
+    }
+    
+}
+
+@media screen and (max-width: 1725px) and (min-width: 1371px){
+    #couleur1{
+        scale: 0.7;
+        left: -10%;
+        right: -10%;
+        top: 170%;
+        
+    }
+    .footermain{
+        position: absolute;
+        top: 255%;
+        left: 0;
+        width: 100%;
+        height:490px;
+    }
+
+    .dataviz{
+        scale: 0.8
+    }
+
+    .boutoninfo{
+        position: relative;
+        top: -20%;
+        left: 84.5%;
+
+    
+    }
+
+    #titre{
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        scale: 0.9;
+    }
+    .footertxt{
+        position: relative;
+        top: 20%;
+        left: -2%;
+        width: 500px;
+        height: 300px; 
+    }
+
+    .reseau{
+        position: absolute;
+        top: 25%;
+        left: 90%;
+        
+    }
+
+    .acteursfooter{
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        width: 500px;
+        height: 300px
+    }
+
+    .h23{
+        top: 135%;
+        left: 7.5%;
+    }
+
+    .boutonscroll{
+        position:relative;
+        top: -50%;
+        left: -34%;
+        width: 122px;
+        height: 122px;
+       
+    }
+    .esasatelite1 {
+        position: absolute;
+        scale: 1;
+        top: 0;
+    left: 0;
+    width: 258px;
+    height: 258px;
+    z-index: 6;
+    rotate: 45deg;
+    }
+    
+    .esasatelite2{
+        position: absolute;
+        scale: 1;
+        top: 42%;
+    left: 5%;
+    width: 133px;
+    height: 135px;
+    rotate:25deg;
+    z-index: 6;
+    }
+    
+    .esasatelite3{
+        position: absolute;
+        scale: 0.8;
+        top: 18%;
+    left: 13%;
+    width: 330px;
+    height: 349px;
+    z-index: 6;
+    }
+    
+    .esasatelite4{
+        position: absolute;
+        scale: 0.8;
+        top: 20%;
+    left: 32%;
+    width: 200px;
+    height: 201px;
+    rotate:-30deg;
+    z-index: 6;
+    }
+
+    .esasatelite5{
+        position: absolute;
+        top: 20%;
+    left: 55%;
+    
+    }
+    .fusee3desa3{
+        position: absolute;
+        scale: 0.9;
+        top: 10%;
+    left: 63%;
+    
+    }
+    
+    .fusee3desa2{
+        position: absolute;
+        scale: 0.9;
+        top: 0;
+    left: 75%;
+    
+    }
+    
+    .fusee3desa4{
+        position: absolute;
+        scale: 0.9;
+        top: 0;
+        left: 85%;
+    
+    }
+}
+
+
+
+@media screen and (max-height: 800px) and (max-width: 1280px){
+    #couleur1{
+        scale: 0.6;
+        left: 28%;
+        right: 28%;
+        top: 120%;
+        
+    }
+}
+@media screen and (max-width: 1200px){
+    #div1{
+        position: absolute;
+        scale:0.8;
+        width: 100%;
+        height: 80%;
+        top: 30%;
+        left: -10%;
+    }
+    
+    .esasatelite1 {
+        position: absolute;
+        scale: 0.8;
+        top: 0;
+    left: -2%;
+    width: 258px;
+    height: 258px;
+    z-index: 6;
+    rotate: 45deg;
+    }
+    
+    .esasatelite2{
+        position: absolute;
+        scale: 1;
+        top: 42%;
+    left: 5%;
+    width: 133px;
+    height: 135px;
+    rotate:25deg;
+    z-index: 6;
+    }
+    
+    .esasatelite3{
+        position: absolute;
+        scale: 0.7;
+        top: 18%;
+    left: 5%;
+    width: 330px;
+    height: 349px;
+    z-index: 6;
+    }
+    
+    .esasatelite4{
+        position: absolute;
+        scale: 0.9;
+        top: 10%;
+    left: 30%;
+    width: 200px;
+    height: 201px;
+    rotate:-30deg;
+    z-index: 6;
+    }
+    .esasatelite5{
+        position: absolute;
+        scale: 0.9;
+        top: 20%;
+    left: 80%;
+    
+    }
+    .fusee3desa3{
+        position: absolute;
+        scale: 0.7;
+        top: 10%;
+        left: 80%;
+        rotate: -10deg;
+    
+    }
+    
+    .fusee3desa2{
+        position: absolute;
+        scale: 0.7;
+        top: 0;
+        left: 90%;
+    
+    }
+    
+    .fusee3desa4{
+        position: absolute;
+        scale: 0.7;
+        top: 0;
+        left: 100%;
+    
+    }
+    .h3esaencours{
+        position: absolute;
+        top: 0;
+        left: 60%;
+    }
+    .textesa3{
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    }
+    
 }
 @media screen and (max-width: 500px){
-    .bodyispace{
-        overflow-x: visible;
+   
+}
+@media  screen and (max-width: 1450px)and (min-height: 890px) {
+    .footermain1{
+        position: absolute;
+        top: 390%;
+        left: 0;
+        width: 100%;
+        height:490px;
         
     }
+    
 }
 
-
-@media screen and (max-width: 1500px){
-   .bodymain{
-        overflow-x: visible;
+@media screen and (max-width: 1550px) and (min-width: 1370px) {
+    .capsulespacex{
+        position: absolute;
+        scale: 0.9;
+        top: 0;
+    left: 15%;
+    width: 326.4px;
+    height: 419.2px;
+    rotate: 15deg;
+    }
+    
+    .fusee3desa{
+        position: absolute;
+        top: -10%;
+        left: 10%;
+    }
+    .boutondroitebleu{
+        position: absolute;
+        top: 40%;
+        right: 0%;
+        width: 110px;
+        height: 110px;
+        z-index: 10;
+    }
+    
+    .boutondroitejaune{
+        position: absolute;
+        top: 40%;
+        right: 0%;
+        width: 110px;
+        height: 110px;
+        opacity: 0;
+        z-index: 10;
     }
 }
-@media screen and (min-width: 1800px){
-   .bodyesa{
-        overflow-x: hidden;
-    }
-}
 
 
- .bodyesa{
-    overflow-x: visible;
+/* .bodyesa{
+    
+        
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
-    background-size:auto;
+    background-size: 100%;
     background-repeat: repeat;
-    height: 3984px;
- }
- .bodyispace{
-    overflow-x: visible;
+    height: 2984px;
+ } */
+
+
+ 
+ /* .bodyispace{
+   
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: repeat;
     height: 4102px;
- }
- .bodybudget{
+ } */
+ /* .bodybudget{
     overflow-x: visible;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: repeat;
-    height: 2102px;
- }
- .bodyplante1{
+    height: 1102px;
+ } */
+ /* .bodyplante1{
     overflow-x: visible;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: repeat;
     height: 2212px;
- }
- .bodytech1{
+ } */
+ /* .bodytech1{
     overflow-x: visible;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: repeat;
     height: 5982px;
- }
- .bodytech2{
+ } */
+ /* .bodytech2{
     overflow-x: visible;
     background: linear-gradient(to top, #3700CE , #000023 60% ) ;
     background-size:auto;
     background-repeat: repeat;
     height: 2582px;
- }
+ } */
 
 
  
 
- .footerforme{
-    position: absolute;
-    top: 2220px;
-    left: 0px;
-    width: 0;
-    height: 0;
-    border: 245px solid #000023;
-    border-left: 109rem solid #000023;
-    margin:0;
-    right:0;
-    z-index: 6;
-}
+ 
 
 .esatxt{
     position: absolute;
-    top: 789px;
-left: 994px;
+    top: 0;
+left: 0;
 width: 549px;
 height: 81px;
 text-align: left;
@@ -242,8 +2205,8 @@ color: #FFFFFF;
 }
 .ispacetxt{
     position: absolute;
-    top: 789px;
-left: 994px;
+    top: 95%;
+left: 55%;
 width: 649px;
 height: 81px;
 text-align: left;
@@ -258,8 +2221,8 @@ color: #FFFFFF;
 }
 .spacextxt{
     position: absolute;
-    top: 789px;
-left: 994px;
+    top: 95%;
+left: 55%;
 width: 649px;
 height: 81px;
 text-align: left;
@@ -274,8 +2237,8 @@ color: #FFFFFF;
 }
 .gamatxt{
     position: absolute;
-    top: 789px;
-left: 994px;
+    top: 95%;
+left: 55%;
 width: 549px;
 height: 81px;
 text-align: left;
@@ -290,8 +2253,8 @@ color: #FFFFFF;
 }
 .bluetxt{
     position: absolute;
-    top: 789px;
-left: 994px;
+    top: 95%;
+left: 55%;
 width: 649px;
 height: 81px;
 text-align: left;
@@ -306,8 +2269,8 @@ color: #FFFFFF;
 }
 .prometheetxt{
     position: absolute;
-    top: 789px;
-left: 994px;
+    top: 95%;
+left: 55%;
 width: 549px;
 height: 81px;
 text-align: left;
@@ -322,8 +2285,8 @@ color: #FFFFFF;
 }
 .moontxt{
     position: absolute;
-    top: 789px;
-left: 994px;
+    top: 95%;
+left: 55%;
 width: 549px;
 height: 81px;
 text-align: left;
@@ -338,8 +2301,8 @@ color: #FFFFFF;
 }
 .nasatxt{
     position: absolute;
-    top: 789px;
-left: 994px;
+    top: 95%;
+left: 55%;
 width: 549px;
 height: 81px;
 text-align: left;
@@ -357,8 +2320,8 @@ color: #FFFFFF;
 
 .btnplus1{
     position: absolute;
-    top: 887px;
-left: 1229px;
+    top: 100px;
+left: 300px;
 width: 39px;
 height: 39px;
 opacity: 0.6;
@@ -366,65 +2329,65 @@ opacity: 0.6;
 }
 .btnplus2{
     position: absolute;
-    top: 920px;
-left: 1229px;
-width: 39px;
-height: 39px;
-opacity: 0.6;
+    top: 100px;
+    left: 300px;
+    width: 39px;
+    height: 39px;
+    opacity: 0.6;
         
 }
 .btnplus3{
     position: absolute;
-    top: 920px;
-left: 1229px;
-width: 39px;
-height: 39px;
-opacity: 0.6;
+    top: 100px;
+    left: 300px;
+    width: 39px;
+    height: 39px;
+    opacity: 0.6;
          
 }
 .btnplus4{
     position: absolute;
-    top: 887px;
-left: 1229px;
-width: 39px;
-height: 39px;
-opacity: 0.6;
+    top: 100px;
+    left: 300px;
+    width: 39px;
+    height: 39px;
+    opacity: 0.6;
           
 }
 .btnplus5{
     position: absolute;
-    top: 887px;
-left: 1229px;
-width: 39px;
-height: 39px;
-opacity: 0.6;
+    top: 100px;
+    left: 300px;
+    width: 39px;
+    height: 39px;
+    opacity: 0.6;
            
 }
 .btnplus6{
     position: absolute;
-    top: 887px;
-left: 1229px;
-width: 39px;
-height: 39px;
-opacity: 0.6;
+    top: 100px;
+    left: 300px;
+    width: 39px;
+    height: 39px;
+    opacity: 0.6;
  
 }
 .btnplus7{
     position: absolute;
-    top: 887px;
-left: 1229px;
-width: 39px;
-height: 39px;
-opacity: 0.6;
+    top: 100px;
+    left: 300px;
+    width: 39px;
+    height: 39px;
+    opacity: 0.6;
 
 }
 .btnplus8{
     position: absolute;
-    top: 887px;
-left: 1229px;
-width: 39px;
-height: 39px;
-opacity: 0.6;
+    top: 100px;
+    left: 300px;
+    width: 39px;
+    height: 39px;
+    opacity: 0.6;
 
 }
 
@@ -434,62 +2397,91 @@ opacity: 0.6;
 
 .ispaceclick{
     visibility: hidden;
+    position: absolute;
+   top: 80%;
+   left: 50%
 }
 .spacexclick{
     visibility: hidden;
+    position: absolute;
+   top: 80%;
+   left: 50%
 }
 .gamaclick{
     visibility: hidden;
+    position: absolute;
+   top: 80%;
+   left: 50%
 }
 .blueclick{
     visibility: hidden;
+    position: absolute;
+   top: 80%;
+   left: 50%
 }
 .prometheeclick{
     visibility: hidden;
+    position: absolute;
+   top: 80%;
+   left: 50%
 }
 .moonclick{
     visibility: hidden;
+    position: absolute;
+   top: 80%;
+   left: 50%
 }
 .nasaclick{
     visibility: hidden;
+    position: absolute;
+   top: 80%;
+   left: 50%
 }
 .esaclick{
    visibility: hidden;
+   position: absolute;
+   top: 80%;
+   left: 50%
+
 }
 
 .dataviz{
-    position: absolute;
-    top: 331px;
-    left: 865px;
+    position: relative;
+    top: 30%;
+    left: 40%;
     width: 518.3px;
     height: 411px;
     
 
 }
 
+
+
 .boutonlune{
-    position: absolute;
-    top: 349px;
-    left: 1572px;
+    position: relative;
+    top: 0;
+    left: 0;
     width: 70px;
     height: 70px;
+    z-index: 5;
     
 }
 
 .boutonlunejaune{
     position: absolute;
-    top: 349px;
-    left: 1572px;
+    top: 0;
+    left: 0;
     width: 70px;
     height: 70px;
     opacity: 0;
+    z-index: 5;
     
 }
 
 .missions{
     position: absolute;
-    top: 340px;
-left: 1632px;
+    top: 0px;
+left: 0px;
 width: 82px;
 height: 25px;
 text-align: left;
@@ -500,6 +2492,7 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 0;
 font-size: 20px;
+z-index: 4;
 
 
 }
@@ -509,8 +2502,9 @@ font-size: 20px;
 }
 
 .lune:hover .missions{
-    left: 1663px;
+    left: 80px;
     opacity: 1;
+    z-index: 4;
 }
 
 .lune .missions{
@@ -518,25 +2512,27 @@ font-size: 20px;
 }
 
 .boutonfusee{
-    position: absolute;
-    top: 449px;
-    left: 1572px;
+    position: relative;
+    top: 20px;
+    left: 0;
     width: 70px;
     height: 70px;
+    z-index: 5;
 }
 .boutonfuseejaune{
     position: absolute;
-    top: 449px;
-    left: 1572px;
+    top: 94px;
+    left: 0px;
     width: 70px;
     height: 70px;
     opacity: 0;
+    z-index: 5;
 }
 
 .tech{
     position: absolute;
-    top: 440px;
-    left: 1632px;
+    top: 90px;
+    left: 0;
 width: 82px;
 height: 25px;
 text-align: left;
@@ -547,6 +2543,7 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 0;
 font-size: 20px;
+z-index: 4;
 }
 
 .fusee:hover .boutonfuseejaune{
@@ -554,8 +2551,9 @@ font-size: 20px;
 }
 
 .fusee:hover .tech{
-    left: 1663px;
+    left: 80px;
     opacity: 1;
+    z-index: 4;
 }
 
 .fusee .tech{
@@ -563,24 +2561,26 @@ font-size: 20px;
 }
 
 .boutonplante{
-    position: absolute;
-    top: 549px;
-    left: 1572px;
+    position: relative;
+    top: 42px;
+    left: 0;
     width: 70px;
     height: 70px;
+    z-index: 5;
 }
 .boutonplantejaune{
     position: absolute;
-    top: 549px;
-    left: 1572px;
+    top: 190px;
+    left: 0px;
     width: 70px;
     height: 70px;
     opacity: 0;
+    z-index: 5;
 }
 .environnement{
     position: absolute;
-    top: 540px;
-    left: 1632px;
+    top: 185px;
+    left: 0;
 width: 82px;
 height: 25px;
 text-align: left;
@@ -591,6 +2591,7 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 0;
 font-size: 20px;
+z-index: 4;
 }
 
 .plante:hover .boutonplantejaune{
@@ -598,8 +2599,9 @@ font-size: 20px;
 }
 
 .plante:hover .environnement{
-    left: 1663px;
+    left: 80px;
     opacity: 1;
+    z-index: 4;
 }
 
 .plante .environnement{
@@ -607,25 +2609,27 @@ font-size: 20px;
 }
 
 .boutonpiece{
-    position: absolute;
-    top: 649px;
-    left: 1572px;
+    position: relative;
+    top: 60px;
+    left: 0;
     width: 70px;
     height: 70px;
+    z-index: 5;
 }
 .boutonpiecejaune{
     position: absolute;
-    top: 649px;
-    left: 1572px;
+    top: 282px;
+    left: 0;
     width: 70px;
     height: 70px;
     opacity: 0;
+    z-index: 5;
 }
 
 .budget{
     position: absolute;
-    top: 640px;
-    left: 1632px;
+    top: 275px;
+    left: 0;
 width: 82px;
 height: 25px;
 text-align: left;
@@ -636,6 +2640,7 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 0;
 font-size: 20px;
+z-index: 4;
 }
 
 .piece:hover .boutonpiecejaune{
@@ -643,7 +2648,7 @@ font-size: 20px;
 }
 
 .piece:hover .budget{
-    left: 1663px;
+    left: 80px;
     opacity: 1;
 }
 
@@ -651,48 +2656,12 @@ font-size: 20px;
     transition:0.3s;
 }
 
-.logofacebook{
-    position: absolute;
-    top: 84px;
-    left: 1647px;
-    width: 16px;
-    height: 30px;
-    
-}
-.logofacebook:hover{
-    opacity: 0.5;
-}
 
-.logotwitter{
-    position: absolute;
-    top: 84px;
-    left: 1688px;
-    width: 37px;
-    height: 30px;
-    
-}
-
-.logotwitter:hover{
-    opacity: 0.5;
-}
-
-.logoinsta{
-    position: absolute;
-    top: 84px;
-    left: 1750px;
-    width: 30px;
-    height: 30px;
-    
-}
-
-.logoinsta:hover{
-    opacity: 0.5;
-}
 
 .h1{
-    position: absolute;
-    top: 330px;
-left: 151px;
+    position: relative;
+    top: 0%;
+left: 0%;
 width: 764px;
 height: 291px;
 
@@ -704,9 +2673,9 @@ opacity: 1;
 }
 
 .h2{
-    position: absolute;
-    top: 568px;
-left: 550px;
+    position: relative;
+    top: -230px;
+left: 400px;
 width: 543px;
 height: 71px;
  font: italic normal var(--unnamed-font-weight-normal) 30px/28px var(--unnamed-font-family-azo-sans);
@@ -719,56 +2688,10 @@ color: #FFFFFF;
 opacity: 1; 
 }
 
-.logofusee{
-    position: absolute;
-    top: 39px;
-left: 174px;
-width: 53px;
-height: 91px;
-}
-
-.logotypo{
-    position: absolute;
-    top: 61px;
-left: 174px;
-width: 406px;
-height: 98.5px;
-opacity: 0;
-}
-
-
-
-.animation1{
-    position: absolute;
-    top: 33px;
-left: 0px;
-width: 64px;
-height: 103px;
-}
-
-.animation1:hover .logofusee{
-    transform: rotate(30deg);
-}
-.animation1:hover .logotypo{
-    opacity: 1;
-    top: 61px;
-    left: 258px;
-    width: 406px;
-    height: 98.5px;
-}
-
-.animation1 .logofusee{
-    transition: 0.3s;
-}
-
-.animation1 .logotypo{
-    transition: 0.3s;
-}
-
 .texte1{
     position: absolute;
-    top: 674px;
-left: 139px;
+    top: 340px;
+left: -1.5%;
 width: 686px;
 height: 84px;
 
@@ -785,8 +2708,8 @@ line-height: 30px;
 
 .texte2{
     position: absolute;
-    top: 810px;
-    left: 140px;
+    top: 480px;
+    left: -1.5%;
     width: 178px;
     height: 35px;
      
@@ -816,10 +2739,112 @@ opacity: 1;
     filter:drop-shadow(0px 0px 10px #C61ED8)
 }
 
-.acteur1{
+.logofusee{
     position: absolute;
-    top: 810px;
-left: 1642px;
+    top: 0;
+left: 0;
+width: 53px;
+height: 91px;
+}
+
+.logotypo{
+    position: absolute;
+    top: 0;
+left: 0;
+width: 406px;
+height: 98.5px;
+opacity: 0;
+}
+
+.nav1{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    z-index: 4;
+
+}
+
+.logofacebook{
+    position: relative;
+    top: 30%;
+    left: 86%;
+    width: 16px;
+    height: 30px;
+    z-index: 5;
+    
+}
+.logofacebook:hover{
+    opacity: 0.5;
+}
+
+.logotwitter{
+    position: relative;
+    top: 30%;
+    left: 88%;
+    width: 37px;
+    height: 30px;
+    z-index: 5;
+    
+}
+
+.logotwitter:hover{
+    opacity: 0.5;
+}
+
+.logoinsta{
+    position: relative;
+    top: 30%;
+    left: 90%;
+    width: 30px;
+    height: 30px;
+    z-index: 5;
+    
+}
+
+.logoinsta:hover{
+    opacity: 0.5;
+}
+
+.animation1{
+    position: absolute;
+    top: 20%;
+left: 7%;
+width: 64px;
+height: 103px;
+z-index: 5;
+}
+
+.animation1:hover .logofusee{
+    transform: rotate(30deg);
+}
+.animation1:hover .logotypo{
+    opacity: 1;
+    top: 10%;
+    left: 150%;
+    width: 406px;
+    height: 98.5px;
+}
+
+.animation1 .logofusee{
+    transition: 0.3s;
+}
+
+.animation1 .logotypo{
+    transition: 0.3s;
+}
+
+
+
+.acteurs1{
+    position: relative;
+    top: 0;
+    left: 80%;
+}
+
+.acteur1{
+    position: relative;
+    top: -55px;
+left: 75px;
 width: 578px;
 height: 26px;
 text-align: left;
@@ -833,9 +2858,9 @@ font-size: 20px;
 }
 
 .acteur2{
-    position: absolute;
-    top: 873px;
-left: 1642px;
+    position: relative;
+    top: -30px;
+left: 75px;
 width: 578px;
 height: 25px;
 font-size: 20px;
@@ -849,21 +2874,20 @@ opacity: 1;
 }
 
 .forme1{
-    position:absolute;
-    top: 838px;
-left: 1572px;
+position:absolute;
+top: 0;
+left: 0;
 width: 57px;
 height: 27px;
-background: var(--unnamed-color-3700ce) 0% 0% no-repeat padding-box;
-background: #3700CE 0% 0% no-repeat padding-box;
-border-radius: 14px;
+background: #3700CE;
+border-radius: 14px ;
 opacity: 1;
 }
 
 .forme2{
-    position: absolute;
-    top: 900px;
-left: 1572px;
+    position: relative;
+    top: 70px;
+left: 0;
 width: 57px;
 height: 27px;
 background: var(--unnamed-color-c61ed8) 0% 0% no-repeat padding-box;
@@ -872,19 +2896,27 @@ border-radius: 14px;
 opacity: 1;
 }
 
-.boutonbas {
+.div1{
     position: absolute;
-    top: 928px;
-    left: 899px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.boutonbas {
+    position: relative;
+    top: 0;
+    left: 0;
     width: 122px;
     height: 122px;
     rotate: 90deg;
+   
     
 }
 .boutonbasjaune {
     position: absolute;
-    top: 928px;
-    left: 899px;
+    top: 0;
+    left: 0;
     width: 122px;
     height: 122px;
     rotate: 90deg;
@@ -899,8 +2931,7 @@ opacity: 1;
 
 .h23{
     position: absolute;
-    top: 1028px;
-left: 145px;
+    
 width: 329px;
 height: 80px;
 
@@ -913,16 +2944,16 @@ opacity: 1;
 
 .carre1{
     position: absolute;
-    top: 1254px;
-    left: 140px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
 }
 
 .carre1jaune{
     position: absolute;
-    top: 1254px;
-    left: 140px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
     opacity: 0;
@@ -930,14 +2961,22 @@ opacity: 1;
 
 .fusee3d{
     position: absolute;
-    top: 1150px;
+    top: -100px;
     scale: 0.5;
-    left: 130px;
+    left: -10px;
 
 rotate: -30deg;
 opacity: 1;
 transform: rotate(30deg);
 z-index: 6;
+}
+
+.esabox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px; 
 }
 
 .esabox:hover .carre1jaune{
@@ -947,14 +2986,14 @@ z-index: 6;
 .esabox:hover .fusee3d{
     transform: rotate(0deg);
     transform: scale(1.2);
-    top: 1150px;
+    top: -100px;
 
 }
 .esabox:hover .esa{
     opacity: 30%;
     font-size: 25px;
-    top: 1560px;
-left: 448px;
+    top: 300px;
+left: 300px;
 width: 87px;
 height: 31px;
 }
@@ -970,8 +3009,8 @@ height: 31px;
 
 .carre2{
     position: absolute;
-    top: 1254px;
-    left: 554px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
     
@@ -979,8 +3018,8 @@ height: 31px;
 
 .carre2jaune{
     position: absolute;
-    top: 1254px;
-    left: 554px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
     opacity: 0;
@@ -993,14 +3032,14 @@ height: 31px;
 }
 .ispacebox:hover .satelite3d{
     transform: scale(1.2);
-    top: 1330px;
+    top: 50px;
 }
 
 .ispacebox:hover .ispace{
     opacity: 30%;
     font-size: 25px;
-    top: 1560px;
-    left: 780px;
+    top: 300px;
+    left: 230px;
     width: 187px;
     height: 31px;
 }
@@ -1011,21 +3050,70 @@ height: 31px;
     transition: 0.3s;
 }
 
+.ispacebox{
+    position: absolute;
+    top: 0;
+    left: 418px;
+    width: 400px;
+    height: 400px; 
+}
+.satelite3d{
+    position: absolute;
+    top: 70px;
+left: 120px;
+width: 199.2px;
+height: 236.4px;
+opacity: 1;
+transform: rotate(15deg);
+z-index: 6;
+} 
+
+.capsule3d{
+    position: absolute;
+    top: 60px;
+    left: 130px;
+    width: 153px;
+    height: 196.5px;
+    transform: rotate(30deg);
+    z-index: 6;
+}
+
+.satelite3d4{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 187.2px;
+    height: 195.6px;
+    z-index: 6;
+}
+
+
+
+.planete3d{
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    scale: 0.6;
+    z-index: 6;
+}
+
 .carre3{
     position: absolute;
-    top: 1254px;
-    left: 968px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
 }
 .carre3jaune{
     position: absolute;
-    top: 1254px;
-    left: 968px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
     opacity: 0;
 }
+
+
 
 .spacexbox:hover .carre3jaune{
     opacity: 1;
@@ -1033,13 +3121,13 @@ height: 31px;
 
 .spacexbox:hover .capsule3d{
     transform: scale(1.2);
-    top: 1330px;
+    top: 50px;
 }
 .spacexbox:hover .spacex{
     opacity: 30%;
     font-size: 25px;
-    top: 1560px;
-    left: 1200px;
+    top: 300px;
+    left: 230px;
     width: 187px;
     height: 31px;
 }
@@ -1054,33 +3142,34 @@ height: 31px;
 
 .carre4{
     position: absolute;
-    top: 1254px;
-    left: 1382px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
 }
 .carre4jaune{
     position: absolute;
-    top: 1254px;
-    left: 1382px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
     opacity: 0;
 }
+
 
 .gamabox:hover .carre4jaune{
     opacity: 1;
 }
 .gamabox:hover .satelite3d4{
     transform: scale(1.3) rotate(-30deg); 
-    top: 1360px;
+    top: 80px;
 }
 
 .gamabox:hover .gama{
     opacity: 30%;
     font-size: 25px;
-    top: 1560px;
-    left: 1630px;
+    top: 300px;
+    left: 240px;
     width: 187px;
     height: 31px;
 }
@@ -1095,19 +3184,20 @@ height: 31px;
 
 .carre5{
     position: absolute;
-    top: 1692px;
-    left: 140px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
 }
 .carre5jaune{
     position: absolute;
-    top: 1692px;
-    left: 140px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
     opacity: 0;
 }
+
 
 .bluebox:hover .carre5jaune{
     opacity: 1;
@@ -1115,8 +3205,8 @@ height: 31px;
 
 .fusee3d5{
     position: absolute;
-    top: 1600px;
-    left: 165px;
+    top: -80px;
+    left: 30px;
     scale: 0.5;
   
     z-index: 6;
@@ -1124,7 +3214,7 @@ height: 31px;
 .bluebox:hover .fusee3d5{
     transform: scale(1.2) rotate(-25deg);
     
-    top: 1600px
+    top: -90px;
 }
 
 .bluebox .fusee3d5{
@@ -1133,8 +3223,8 @@ height: 31px;
 .bluebox:hover .blueorigin{
     opacity: 30%;
     font-size: 25px;
-    top: 2000px;
-left: 348px;
+    top: 300px;
+left: 210px;
 width: 187px;
 height: 31px;
 }
@@ -1145,19 +3235,20 @@ height: 31px;
 
 .carre6{
     position: absolute;
-    top: 1692px;
-    left: 554px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
 }
 .carre6jaune{
     position: absolute;
-    top: 1692px;
-    left: 554px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
     opacity: 0;
 }
+
 
 .prometheebox:hover .carre6jaune{
     opacity: 1;
@@ -1166,8 +3257,8 @@ height: 31px;
 .prometheebox:hover .promethee{
     opacity: 30%;
     font-size: 25px;
-    top: 2000px;
-left: 758px;
+    top: 300px;
+left: 210px;
 width: 187px;
 height: 31px;
 }
@@ -1187,19 +3278,21 @@ height: 31px;
 
 .carre7{
     position: absolute;
-    top: 1692px;
-    left: 968px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
 }
 .carre7jaune{
     position: absolute;
-    top: 1692px;
-    left: 968px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
     opacity: 0;
 }
+
+
 
 .nasabox:hover .carre7jaune{
     opacity: 1;
@@ -1209,8 +3302,8 @@ height: 31px;
 .nasabox:hover .nasa{
     opacity: 30%;
     font-size: 25px;
-    top: 2000px;
-left: 1210px;
+    top: 300px;
+left: 230px;
 width: 187px;
 height: 31px;
 }
@@ -1220,8 +3313,8 @@ height: 31px;
 }
 .fusee3d6{
     position: absolute;
-    top: 1537px;
-    left: 950px;
+    top: -150px;
+    left: -15px;
    scale: 0.4;
     
     z-index: 6;
@@ -1229,7 +3322,7 @@ height: 31px;
 .nasabox:hover .fusee3d6{
     transform: scale(1.2) rotate(-30deg);
 
-    top: 1545px;
+    top: -140px;
 }
 
 .nasabox .fusee3d6{
@@ -1238,8 +3331,8 @@ height: 31px;
 
 .carre8{
     position: absolute;
-    top: 1692px;
-    left: 1382px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
 }
@@ -1248,12 +3341,13 @@ height: 31px;
 
 .carre8jaune{
     position: absolute;
-    top: 1692px;
-    left: 1382px;
+    top: 0;
+    left: 0;
     width: 398px;
     height: 398px;
     opacity: 0;
 }
+
 
 
 .moonbox:hover .carre8jaune{
@@ -1262,14 +3356,14 @@ height: 31px;
 
 .satelite3d2{
     position: absolute;
-    top: 1540px;
-    left: 1340px;
+    top: -120px;
+    left: -40px;
    scale: 0.4;
     z-index: 6;
 }
 .moonbox:hover .satelite3d2{
-    transform: scale(1.2) rotate(-25deg);
-    top: 1545px;
+    transform: scale(1.3) rotate(-25deg);
+    top: -120px;
 }
 
 .moonbox .satelite3d2{
@@ -1280,8 +3374,8 @@ height: 31px;
 .moonbox:hover .moonexpress{
     opacity: 30%;
     font-size: 25px;
-    top: 2000px;
-left: 1580px;
+    top: 300px;
+left: 190px;
 width: 187px;
 height: 31px;
 }
@@ -1295,14 +3389,13 @@ height: 31px;
 letter-spacing: 0px;
 color: #383838;
 opacity: 1; 
-top: 0px;
-left: 0px;
+
 }
 
 .esa{
     position: absolute;
-    top: 1545px;
-    left: 296px;
+    top: 300px;
+    left: 150px;
     width: 87px;
     height: 57px;
     color: #383838;
@@ -1312,8 +3405,8 @@ left: 0px;
 
 .ispace{
     position: absolute;
-    top: 1545px;
-    left: 674px;
+    top: 300px;
+    left: 120px;
     width: 158px;
     height: 57px;
     color: #383838;
@@ -1323,8 +3416,8 @@ left: 0px;
 
 .spacex{
     position: absolute;
-    top: 1545px;
-    left: 1081px;
+    top: 300px;
+    left: 120px;
     width: 173px;
     height: 57px;
     color: #383838;
@@ -1334,8 +3427,8 @@ left: 0px;
 
 .gama{
     position: absolute;
-    top: 1545px;
-    left: 1518px;
+    top: 300px;
+    left: 130px;
     width: 126px;
     height: 57px;
     color: #383838;
@@ -1345,8 +3438,8 @@ left: 0px;
 
 .blueorigin{
     position: absolute;
-    top: 1982px;
-    left: 222px;
+    top: 300px;
+    left: 80px;
     width: 242px;
     height: 57px;
     color: #383838;
@@ -1356,8 +3449,8 @@ left: 0px;
 
 .promethee{
     position: absolute;
-    top: 1982px;
-    left: 632px;
+    top: 300px;
+    left: 80px;
     width: 242px;
     height: 57px;
     color: #383838;
@@ -1367,8 +3460,8 @@ left: 0px;
 
 .nasa{
     position: absolute;
-    top: 1982px;
-    left: 1100px;
+    top: 300px;
+    left: 140px;
     width: 134px;
     height: 57px;
     color: #383838;
@@ -1378,18 +3471,45 @@ left: 0px;
 
 .moonexpress{
     position: absolute;
-    top: 1982px;
-    left: 1430px;
+    top: 300px;
+    left: 60px;
     width: 303px;
     height: 57px;
     color: #383838;
     text-align: center;
     font-family: 'altonetrial_bold';
 }
-.logospacerace{
+.footerforme{
     position: absolute;
-    top: 2230px;
-left: -100px;
+    top: 0;
+    left: 0;
+    
+    
+    width: 100%;
+    height: 0;
+    border: 245px solid #000023;
+    border-left: 109rem solid #000023;
+    margin:0;
+    
+    z-index: 4;
+}
+
+
+.footer1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    z-index: 5;
+}
+
+
+
+.logospacerace{
+    position: relative;
+    top: 0;
+left: -140px;
 width: 812px;
 height: 197px;
 transform: scale(0.4);
@@ -1398,10 +3518,12 @@ z-index: 9;
     
 }
 
+
+
 .texte3{
     position: absolute;
-    top: 2355px;
-    left: 140px;
+    top: 150px;
+    left: 100px;
     width: 852px;
     height: 106px;
      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 30px/30px var(--unnamed-font-family-azo-sans);
@@ -1419,8 +3541,8 @@ font-weight: 200;
 
 .texte4{
     position: absolute;
-    top: 2514px;
-    left: 140px;
+    top: 280px;
+    left: 100px;
     width: 578px;
     height: 35px;
     
@@ -1439,8 +3561,8 @@ font-weight: 200;
 
 .logociel2{  
     position: absolute;
-    top: -20px;
-    left: 179px;
+    top: 0;
+    left: 190px;
     width: 115px;
     height: 68px;
     opacity: 1;
@@ -1454,8 +3576,8 @@ font-weight: 200;
 
 .acteurs{
     position: absolute;
-    top: 2249px;
-left: 830px;
+    top: 0;
+left: 0;
 width: 153px;
 height: 63px;
  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 40px/30px var(--unnamed-font-family-azo-sans);
@@ -1474,8 +3596,8 @@ font-size: 40px;
 
 .esa2{
     position: absolute;
-    top: 2355px;
-left: 831px;
+    top: 100px;
+left: 0;
 width: 121px;
 height: 38px;
  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 30px/30px var(--unnamed-font-family-azo-sans);
@@ -1495,8 +3617,8 @@ z-index: 9;
 
 .blueorigin2{
     position: absolute;
-    top: 2355px;
-left: 969px;
+    top: 100px;
+left: 139px;
 width: 159px;
 height: 38px;
  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 30px/30px var(--unnamed-font-family-azo-sans);
@@ -1516,8 +3638,8 @@ z-index: 9;
 
 .ispace2{
     position: absolute;
-    top: 2403px;
-left: 831px;
+    top: 150px;
+left: 0;
 width: 121px;
 height: 38px;
  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 30px/30px var(--unnamed-font-family-azo-sans);
@@ -1537,8 +3659,8 @@ z-index: 9;
 
 .promethee2{
     position: absolute;
-    top: 2403px;
-left: 969px;
+    top: 150px;
+left: 139px;
 width: 159px;
 height: 39px;
  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 30px/30px var(--unnamed-font-family-azo-sans);
@@ -1558,8 +3680,8 @@ z-index: 9;
 
 .spacex2{
     position: absolute;
-    top: 2452px;
-left: 831px;
+    top: 200px;
+left: 0;
 width: 121px;
 height: 38px;
  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 30px/30px var(--unnamed-font-family-azo-sans);
@@ -1579,8 +3701,8 @@ z-index: 9;
 
 .nasa2{
     position: absolute;
-    top: 2452px;
-left: 969px;
+    top: 200px;
+left: 139px;
 width: 159px;
 height: 39px;
  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 30px/30px var(--unnamed-font-family-azo-sans);
@@ -1600,8 +3722,8 @@ z-index: 9;
 
 .gama2{
     position: absolute;
-    top: 2501px;
-left: 831px;
+    top: 250px;
+left: 0;
 width: 121px;
 height: 40px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 30px/30px var(--unnamed-font-family-azo-sans);
@@ -1621,8 +3743,8 @@ z-index: 9;
 
 .moonexpress2{
     position: absolute;
-    top: 2501px;
-left: 969px;
+    top: 250px;
+left: 139px;
 width: 259px;
 height: 39px;
  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 30px/30px var(--unnamed-font-family-azo-sans);
@@ -1640,10 +3762,13 @@ z-index: 9;
     font-weight:bold;
 }
 
+
+
+
 .insta{
     position: absolute;
-    top: 2324px;
-left: 1694px;
+    top:0;
+left: 0;
 width: 49px;
 height: 49px;
 opacity: 1;
@@ -1656,8 +3781,8 @@ z-index: 9;
 
 .twitter{
     position: absolute;
-    top: 2413px;
-left: 1688px;
+    top: 100px;
+left: -10px;
 width: 60px;
 height: 49px;
 opacity: 1;
@@ -1670,8 +3795,8 @@ z-index: 9;
 
 .facebook{
     position: absolute;
-    top: 2502px;
-left: 1706px;
+    top: 200px;
+left: 10px;
 width: 25px;
 height: 49px;
 opacity: 1;
@@ -1684,8 +3809,8 @@ z-index: 9;
 
 .auteur{
     position: absolute;
-    top: 2580px;
-left: 857px;
+    top: 130%;
+left: 40%;
 width: 206px;
 height: 25px;
  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 20px/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
@@ -1704,92 +3829,37 @@ font-size: 20px;
 
 
 
-.satelite3d{
-    position: absolute;
-    top: 1295px;
-left: 666px;
-width: 199.2px;
-height: 236.4px;
-opacity: 1;
-transform: rotate(15deg);
-z-index: 6;
-} 
-
-.capsule3d{
-    position: absolute;
-    top: 1324px;
-    left: 1102px;
-    width: 153px;
-    height: 196.5px;
-    transform: rotate(30deg);
-    z-index: 6;
-}
-
-.satelite3d4{
-    position: absolute;
-    top: 1335px;
-    left: 1493px;
-    width: 187.2px;
-    height: 195.6px;
-    z-index: 6;
-}
-
-
-
-.planete3d{
-    position: absolute;
-    top: 1650px;
-    left: 550px;
-    scale: 0.6;
-    z-index: 6;
-}
-.boutondroitebleu{
-    position: absolute;
-    top: 555px;
-    left: 1629px;
-    width: 110px;
-    height: 110px;
-    z-index: 10;
-}
-
-.boutondroitejaune{
-    position: absolute;
-    top: 555px;
-    left: 1629px;
-    width: 110px;
-    height: 110px;
-    opacity: 0;
-    z-index: 10;
-}
 
 .boutongauchebleu{
     position: absolute;
-    top: 555px;
-    left: 140px;
+    top:40%;
+    left: 5%;
     width: 110px;
     height: 110px;
 }
 
 .boutongauchejaune{
     position: absolute;
-    top: 555px;
-    left: 140px;
+    top: 40%;
+    left: 5%;
     width: 110px;
     height: 110px;
     opacity: 0;
 }
 
+
+
 .explorerbleu{
     position: absolute;
-    top: 728px;
-    left: 831px;
+    top: 75%;
+    left: 40%;
     width: 342px;
     height: 72px;
 }
 .explorerjaune{
     position: absolute;
-    top: 728px;
-    left: 831px;
+    top: 75%;
+    left: 40%;
     width: 342px;
     height: 72px;
     opacity: 0;
@@ -1805,19 +3875,50 @@ z-index: 6;
 .explorer:hover .explorerjaune{
     opacity: 1;
 }
-.fusee3desa{
+.h1gama{
     position: absolute;
-    top: 263px;
-    left: 350px;
-    
+    top: -15%;
+left: 40%;
+width: 535px;
+height: 167px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 160px/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal normal 160px/149px 'astral_delight_black';
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+
+
+.textgama{
+    position: absolute;
+    top: 30%;
+left: 40%;
+width: 830px;
+height: 197px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
 }
 
 .h1esa{
-    position: absolute;
-    top: 190px;
-left: 831px;
-width: 342px;
+    
+position: absolute;
+top: -15%;
+left: 40%;
+width: 690px;
 height: 167px;
+        
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 160px/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
@@ -1830,8 +3931,8 @@ opacity: 1;
 
 .textesa1{
     position: absolute;
-    top: 483px;
-    left: 833px;
+    top: 30%;
+    left: 40%;
     width: 810px;
     height: 197px;
     font-family: azo-sans-web, sans-serif;
@@ -1843,10 +3944,12 @@ opacity: 1;
     opacity: 1;
 }
 
+
+
 .textesa2{
     position: absolute;
-    top: 1275px;
-    left: 140px;
+    top: 25%;
+    left: 8%;
     width: 870px;
     height: 145px;
     font-family: azo-sans-web, sans-serif;
@@ -1862,8 +3965,8 @@ opacity: 1;
 
 .h2esamission{
     position: absolute;
-    top: 978px;
-left: 153px;
+    top: -10%;
+left: 8%;
 width: 807px;
 height: 125px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-120)/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
@@ -1878,8 +3981,8 @@ opacity: 1;
 
 .h3esapasse{
     position: absolute;
-    top: 1151px;
-left: 140px;
+    top: 10%;
+left: 8%;
 width: 219px;
 height: 83px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 65px/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
@@ -1896,31 +3999,14 @@ font-size: 70px;
 
 
 
-.fusee3desa3{
-    position: absolute;
-    top: 1058px;
-left: 1115px;
 
-}
 
-.fusee3desa2{
-    position: absolute;
-    top: 961px;
-left: 1352px;
-
-}
-
-.fusee3desa4{
-    position: absolute;
-    top: 942px;
-left: 1624px;
-
-}
 
 .h3esaencours{
+    
     position: absolute;
-    top: 1825px;
-left: 968px;
+        top: 0;
+        left: 50%;
 width: 570px;
 height: 83px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 65px/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
@@ -1935,49 +4021,12 @@ opacity: 1;
 font-size: 70px;
 }
 
-.esasatelite1 {
-    position: absolute;
-    top: 1757px;
-left: 142px;
-width: 258px;
-height: 258px;
-z-index: 6;
-rotate: 45deg;
-}
 
-.esasatelite2{
-    position: absolute;
-    top: 2161px;
-left: 195px;
-width: 133px;
-height: 135px;
-rotate:25deg;
-z-index: 6;
-}
-
-.esasatelite3{
-    position: absolute;
-    top: 1928px;
-left: 362px;
-width: 330px;
-height: 349px;
-z-index: 6;
-}
-
-.esasatelite4{
-    position: absolute;
-    top: 1961px;
-left: 704px;
-width: 200px;
-height: 201px;
-rotate:-30deg;
-z-index: 6;
-}
 
 .textesa3{
     position: absolute;
-    top: 1949px;
-left: 970px;
+    top: 15%;
+    left: 50%;
 width: 1010px;
 height: 332px;
 font-family: azo-sans-web, sans-serif;
@@ -1990,10 +4039,12 @@ opacity: 1;
 z-index: 5;
 }
 
+
+
 .h3esafuture{
     position: absolute;
-    top: 2519px;
-left: 140px;
+    top: 0;
+left: 8%;
 width: 209px;
 height: 83px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 65px/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
@@ -2009,8 +4060,8 @@ font-size: 70px;
 
 .textesa4{
     position: absolute;
-    top: 2643px;
-left: 140px;
+    top: 15%;
+left: 8%;
 width: 1010px;
 height: 599px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -2024,56 +4075,15 @@ color: #FFFFFF;
 opacity: 1;
 }
 
-.esasatelite5{
-    position: absolute;
-    top: 2700px;
-left: 1015px;
 
-}
 
-.footeresa{
-    position: absolute;
-    top: 1290px;
-    left: 0;
-}
 
-.h1ispace{
-    position: absolute;
-    top: 190px;
-left: 831px;
-width: 673px;
-height: 167px;
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 160px/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-ffffff);
-text-align: left;
-font: normal normal normal 160px/149px 'astral_delight_black';
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
 
-.texteispace1{
-    position: absolute;
-    top: 483px;
-left: 833px;
-width: 840px;
-height: 197px;
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-ffffff);
-text-align: left;
-font-family: azo-sans-web, sans-serif;
-    font-style: normal;
-    font-weight: 200; 
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
+
 
 .h2ispacemission{
     position: absolute;
-    top: 978px;
+    top: -15%;
 left: 153px;
 width: 807px;
 height: 125px;
@@ -2089,7 +4099,7 @@ opacity: 1;
 
 .h3ispace1{
     position: absolute;
-    top: 1151px;
+    top: 5%;
 left: 140px;
 width: 735px;
 height: 83px;
@@ -2107,7 +4117,7 @@ font-size: 70px;
 
 .texteispace2{
     position: absolute;
-    top: 1275px;
+    top: 20%;
 left: 140px;
 width: 890px;
 height: 584px;
@@ -2123,19 +4133,36 @@ color: #FFFFFF;
 opacity: 1;
 }
 
-.coupe3d{
-    position: absolute;
-    top: 1287px;
-left: 1128px;
-width: 352px;
-height: 560px;
 
+
+
+.mission1{
+    position: absolute;
+    width: 50%; 
+    height: 40%; 
+    top: 0;
+    left: 50%;
+}
+
+.mission2{
+    position: absolute;
+    width: 50%; 
+    height: 40%; 
+    top: 35%;
+    left: 50%;
+}
+.mission3{
+    position: absolute;
+    width: 50%; 
+    height: 40%; 
+    top: 70%;
+    left: 50%;
 }
 
 .h3ispace2{
     position: absolute;
-    top: 1977px;
-left: 972px;
+    top: 0;
+left: 0;
 width: 350px;
 height: 83px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 65px/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
@@ -2152,8 +4179,8 @@ font-size: 70px;
 
 .texteispace3{
     position: absolute;
-    top: 2097px;
-left: 971px;
+    top: 40%;
+left: 0;
 width: 900px;
 height: 134px;
 color: var(--unnamed-color-ffffff);
@@ -2168,8 +4195,8 @@ opacity: 1;
 
 .h3ispace3{
     position: absolute;
-    top: 2277px;
-left: 972px;
+    top: 0;
+left: 0;
 width: 350px;
 height: 83px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 65px/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
@@ -2186,8 +4213,8 @@ font-size: 70px;
 
 .texteispace4{
     position: absolute;
-    top: 2397px;
-left: 971px;
+    top: 40%;
+left: 0;
 width: 900px;
 height: 134px;
 text-align: left;
@@ -2202,8 +4229,8 @@ opacity: 1;
 
 .h3ispace4{
     position: absolute;
-    top: 2577px;
-left: 972px;
+    top: 0;
+left: 0;
 width: 350px;
 height: 83px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 65px/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
@@ -2220,8 +4247,8 @@ font-size: 70px;
 
 .texteispace5{
     position: absolute;
-    top: 2697px;
-left: 971px;
+    top: 40%;
+left: 0;
 width: 900px;
 height: 224px;
 color: var(--unnamed-color-ffffff);
@@ -2234,10 +4261,18 @@ color: #FFFFFF;
 opacity: 1;
 }
 
+.div4{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 340%;
+    left: 0;
+}
+
 .texteispace6{
     position: absolute;
-    top: 3034px;
-left: 140px;
+    top: 0;
+left: 5%;
 width: 1010px;
 height: 269px;
 color: var(--unnamed-color-ffffff);
@@ -2252,8 +4287,8 @@ opacity: 1;
 
 .lune3d{
     position: absolute;
-    top: 3049px;
-left: 1106px;
+    top: 0;
+left: 60%;
 width: 260px;
 height: 260px;
 }
@@ -2266,36 +4301,16 @@ width: 1920px;
 height: 475px;
 }
 
-.satelite3dispace{
-    position: absolute;
-    top: 240px;
-left: 308px;
-width: 448.2px;
-height: 531.9px;
-}
-
-.rover3d{
-    position: absolute;
-    top: 2104px;
-left: 106px;
 
 
 
-}
 
-.capsulespacex{
-    position: absolute;
-    top: 330px;
-left: 380px;
-width: 326.4px;
-height: 419.2px;
-rotate: 15deg;
-}
+
 
 .textspacex1{
     position: absolute;
-    top: 483px;
-left: 833px;
+    top: 40%;
+left: 50%;
 width: 810px;
 height: 197px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
@@ -2312,8 +4327,8 @@ opacity: 1;
 
 .h1spacex{
     position: absolute;
-    top: 190px;
-left: 831px;
+    top: 0;
+left: 50%;
 width: 689px;
 height: 167px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 160px/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
@@ -2326,52 +4341,12 @@ color: #FFFFFF;
 opacity: 1;
 }
 
-.h1gama{
-    position: absolute;
-    top: 190px;
-left: 831px;
-width: 535px;
-height: 167px;
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 160px/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-ffffff);
-text-align: left;
-font: normal normal normal 160px/149px 'astral_delight_black';
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
 
-.satelitegama{
-    position: absolute;
-    top: 393px;
-left: 335px;
-width: 357px;
-height: 377px;
-}
-
-.textgama{
-    position: absolute;
-    top: 483px;
-left: 833px;
-width: 830px;
-height: 197px;
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-ffffff);
-text-align: left;
-font-family: azo-sans-web, sans-serif;
-    font-style: normal;
-    font-weight: 200;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
 
 .h1blue{
     position: absolute;
-    top: 190px;
-left: 831px;
+    top: -15%;
+left: 40%;
 width: 969px;
 height: 146px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 140px/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
@@ -2385,8 +4360,8 @@ opacity: 1;
 
 .textblue{
     position: absolute;
-    top: 506px;
-left: 833px;
+    top: 30%;
+left: 40%;
 width: 840px;
 height: 147px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
@@ -2401,17 +4376,12 @@ color: #FFFFFF;
 opacity: 1;
 }
 
-.fuseeblue{
-    position: absolute;
-    top: 270px;
-left: 390px;
 
-}
 
 .h1promethee{
     position: absolute;
-    top: 190px;
-left: 831px;
+    top: -15%;
+left: 40%;
 width: 1062px;
 height: 146px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 140px/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
@@ -2425,18 +4395,12 @@ opacity: 1;
 z-index: 5;
 }
 
-.planetepromethee{
-    position: absolute;
-    top: 363px;
-left: 334px;
 
-
-}
 
 .textpromethee{
     position: absolute;
-    top: 443px;
-left: 833px;
+    top: 30%;
+left: 40%;
 width: 840px;
 height: 224px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
@@ -2453,8 +4417,8 @@ opacity: 1;
 
 .h1nasa{
     position: absolute;
-    top: 190px;
-left: 831px;
+    top: -15%;
+left: 40%;
 width: 535px;
 height: 167px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 160px/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
@@ -2467,18 +4431,12 @@ color: #FFFFFF;
 opacity: 1;
 }
 
-.fuseenasa{
-    position: absolute;
-    top: 234px;
-left: 350px;
-scale: 0.9;
 
-}
 
 .textnasa{
     position: absolute;
-    top: 483px;
-left: 803px;
+    top: 30%;
+left: 40%;
 width: 870px;
 height: 197px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
@@ -2494,8 +4452,8 @@ opacity: 1;
 
 .h1moon{
     position: absolute;
-    top: 190px;
-left: 831px;
+    top: -15%;
+left: 40%;
 width: 673px;
 height: 246px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 140px/100px var(--unnamed-font-family-astral-delight-black);
@@ -2507,17 +4465,12 @@ color: #FFFFFF;
 opacity: 1;
 }
 
-.satelitemoon{
-    position: absolute;
-    top: 250px;
-left: 320px;
 
-}
 
 .textmoon{
     position: absolute;
-    top: 533px;
-left: 833px;
+    top: 30%;
+left: 40%;
 width: 810px;
 height: 197px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
@@ -2532,10 +4485,11 @@ color: #FFFFFF;
 opacity: 1;
 }
 
+
 .h2esatech{
     position: absolute;
-    top: 977px;
-left: 140px;
+    top: 0;
+left: 5%;
 width: 1091px;
 height: 125px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-120)/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
@@ -2550,8 +4504,8 @@ opacity: 1;
 
 .h3esatech1{
     position: absolute;
-    top: 1157px;
-left: 139px;
+    top: 20%;
+left: 5%;
 width: 399px;
 height: 88px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 65px/83px var(--unnamed-font-family-azo-sans);
@@ -2569,8 +4523,8 @@ font-size: 70px;
 
 .esatexte1{
     position: absolute;
-    top: 1306px;
-left: 140px;
+    top: 35%;
+left: 5%;
 width: 880px;
 height: 674px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -2586,15 +4540,16 @@ opacity: 1;
 
 .fuseesatech{
     position: absolute;
-    top: 1306px;
-left: 1184px;
+    top: 30%;
+left: 60%;
 
 }
 
+
 .h3esatech2{
     position: absolute;
-    top: 2085px;
-left: 140px;
+    top: 0;
+left: 5%;
 width: 300px;
 height: 88px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 65px/83px var(--unnamed-font-family-azo-sans);
@@ -2612,8 +4567,8 @@ font-size: 70px;
 
 .esatexte2{
     position: absolute;
-    top: 2220px;
-left: 140px;
+    top: 15%;
+left: 5%;
 width: 880px;
 height: 420px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -2629,8 +4584,8 @@ opacity: 1;
 
 .esatexte3{
     position: absolute;
-    top: 2220px;
-left: 970px;
+    top: 15%;
+left:50%;
 width: 880px;
 height: 420px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -2646,8 +4601,8 @@ opacity: 1;
 
 .esatexte4{
     position: absolute;
-    top: 3116px;
-left: 140px;
+    top: 100%;
+left: 5%;
 width: 1840px;
 height: 236px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -2663,16 +4618,18 @@ opacity: 1;
 
 .esamaillage{
     position: absolute;
-    top: 2704px;
-left: 750px;
+    top: 62%;
+left: 35%;
 width: 420px;
 height: 325px;
 }
 
+
+
 .h3esatech3{
     position: absolute;
-    top: 3493px;
-left: 140px;
+    top: 0;
+left: 5%;
 width: 398px;
 height: 88px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 65px/83px var(--unnamed-font-family-azo-sans);
@@ -2690,8 +4647,8 @@ font-size: 70px;
 
 .esatexte5{
     position: absolute;
-    top: 3622px;
-left: 140px;
+    top: 15%;
+left: 5%;
 width: 880px;
 height: 374px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -2707,8 +4664,8 @@ opacity: 1;
 
 .esatexte6{
     position: absolute;
-    top: 3622px;
-left: 1000px;
+    top: 15%;
+left: 50%;
 width: 880px;
 height: 1036px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -2724,8 +4681,8 @@ opacity: 1;
 
 .esatexte7{
     position: absolute;
-    top: 4818px;
-left: 140px;
+    top: 130%;
+left: 5%;
 width: 882px;
 height: 290px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -2741,8 +4698,8 @@ opacity: 1;
 
 .esatexte8{
     position: absolute;
-    top: 4818px;
-left: 1000px;
+    top: 130%;
+left: 50%;
 width: 880px;
 height: 290px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -2758,24 +4715,18 @@ opacity: 1;
 
 .esacomposition{
     position: absolute;
-    top: 4062px;
-left: 215px;
+    top: 60%;
+left: 5%;
 width: 599px;
 height: 568px;
 }
 
-.footeresatech{
-    position: absolute;
-    top: 3288px;
-left: 1px;
-width: 1920px;
-height: 475px;
-}
+
 
 .h2ispacetech{
     position: absolute;
-    top: 978px;
-left: 140px;
+    top: 0;
+left: 5%;
 width: 1091px;
 height: 125px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-120)/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
@@ -2790,8 +4741,8 @@ opacity: 1;
 
 .h3ispacetech{
     position: absolute;
-    top: 1147px;
-left: 139px;
+    top: 22%;
+left: 5%;
 width: 813px;
 height: 88px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 65px/83px var(--unnamed-font-family-azo-sans);
@@ -2809,8 +4760,8 @@ font-size: 70px;
 
 .ispacetexte1{
     position: absolute;
-    top: 1276px;
-left: 140px;
+    top: 40%;
+left: 5%;
 width: 880px;
 height: 359px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -2826,8 +4777,8 @@ opacity: 1;
 
 .ispacetexte2{
     position: absolute;
-    top: 1276px;
-left: 1070px;
+    top: 40%;
+left: 50%;
 width: 880px;
 height: 314px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -2843,16 +4794,16 @@ opacity: 1;
 
 .roverispace{
     position: absolute;
-    top: 1715px;
-left: 660px;
+    top: 85%;
+left: 30%;
 width: 580px;
 height: 373px;
 }
 
 .h2esaplant{
     position: absolute;
-    top: 977px;
-left: 140px;
+    top: 0;
+left: 10%;
 width: 1364px;
 height: 125px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-120)/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
@@ -2867,8 +4818,8 @@ opacity: 1;
 
 .texteesaplant{
     position: absolute;
-    top: 1203px;
-left: 140px;
+    top: 30%;
+left: 10%;
 width: 880px;
 height: 674px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -2882,58 +4833,15 @@ color: #FFFFFF;
 opacity: 1;
 }
 
-.sateliteesaplant{
-    position: absolute;
-    top: 1323px;
-left: 1000px;
-scale: 0.8;
 
-}
 
-.planeteesaplant{
-    position: absolute;
-    top: 1562px;
-left: 1374px;
 
-}
 
-.h2ispaceplant{
-    position: absolute;
-    top: 979px;
-left: 140px;
-width: 1364px;
-height: 125px;
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-120)/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-ffffff);
-text-align: left;
-font: normal normal normal 120px/149px 'astral_delight_black';
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
 
-.texteispaceplant{
-    position: absolute;
-    top: 1203px;
-left: 140px;
-width: 880px;
-height: 314px;
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-azo-sans);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-ffffff);
-text-align: left;
-font-family: azo-sans-web, sans-serif;
-    font-style: normal;
-    font-weight: 200;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
 
 .baril1{
     position: absolute;
-    top: 1352px;
+    top:30%;
 left: 1300px;
 
 z-index: 6;
@@ -2941,7 +4849,7 @@ z-index: 6;
 
 .baril2{
     position: absolute;
-    top: 1356px;
+    top: 30%;
 left: 1000px;
 
 z-index: 5;
@@ -2949,22 +4857,17 @@ z-index: 5;
 
 .baril3{
     position: absolute;
-    top: 1323px;
+    top: 30%;
 left: 1152px;
 
 }
 
-.footerispaceplant{
-    position: absolute;
-    top: -400px;
-    margin:0;
-    left: 0;
-}
+
 
 .h2esabudget{
     position: absolute;
-    top: 978px;
-left: 140px;
+    top: 0;
+left: 10%;
 width: 674px;
 height: 125px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-120)/var(--unnamed-line-spacing-149) var(--unnamed-font-family-astral-delight-black);
@@ -2979,8 +4882,8 @@ opacity: 1;
 
 .h3esabudget{
     position: absolute;
-    top: 1180px;
-left: 140px;
+    top: 25%;
+left: 10%;
 width: 536px;
 height: 97px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 65px/83px var(--unnamed-font-family-azo-sans);
@@ -2998,8 +4901,8 @@ font-size: 70px;
 
 .textesabudget{
     position: absolute;
-    top: 1327px;
-left: 140px;
+    top: 50%;
+left: 10%;
 width: 880px;
 height: 224px;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -3013,18 +4916,7 @@ color: #FFFFFF;
 opacity: 1;
 }
 
-.piecesesa{
-    position: absolute;
-    top: -100px;
-left: 1027px;
 
-}
-
-.flechesa{
-    position: absolute;
-    top: -100px;
-    left: 1427px;
-}
 
 .footeresabudget{
     position: absolute;
@@ -3094,28 +4986,29 @@ height: 504px;
     opacity: 1;
 }
 
+
 .boutonscrolllune{
-    position: fixed;
-    top: 425px;
-left: 1825px;
+    position: absolute;
+    top: -150px;
+left: 145px;
 width: 70px;
 height: 70px;
 z-index: 1;
 }
 
 .boutonscrolllunejaune{
-    position: fixed;
-    top: 425px;
-left: 1825px;
+    position: absolute;
+    top: -150px;
+left: 145px;
 width: 70px;
 height: 70px;
 z-index: 1;
 opacity: 0;
 }
 .scrollmission{
-    position: fixed;
-    top: 420px;
-    left: 1825px;
+    position: absolute;
+    top: -150px;
+    left: 100px;
     text-align: left;
 font-family: azo-sans-web, sans-serif;
 font-style: normal;
@@ -3134,22 +5027,22 @@ z-index: 0;
 }
 
 .boutonslune:hover .scrollmission{
-    left :1740px;
+    left :50px;
     opacity: 1;
 }
 
 .boutonscrollfusee{
-    position: fixed;
-    top: 525px;
-    left: 1825px;
+    position: absolute;
+    top: -50px;
+    left: 145px;
     width: 70px;
     height: 70px;
     z-index: 1;
 }
 .boutonscrollfuseejaune{
-    position: fixed;
-    top: 525px;
-    left: 1825px;
+    position: absolute;
+    top: -50px;
+    left: 145px;
     width: 70px;
     height: 70px;
     z-index: 1;
@@ -3157,9 +5050,9 @@ z-index: 0;
 }
 
 .scrolltech{
-    position: fixed;
-    top:520px;
-    left: 1788px;
+    position: absolute;
+    top:-50px;
+    left: 115px;
     text-align: left;
 font-family: azo-sans-web, sans-serif;
 font-style: normal;
@@ -3177,23 +5070,23 @@ z-index: 0;
     opacity: 1;
 }
 .boutonsfusee:hover .scrolltech{
-    left:1710px;
+    left:20px;
     opacity: 1;
 }
 
 
 .boutonscrollplante{
-    position: fixed;
-    top: 625px;
-left: 1825px;
+    position: absolute;
+    top: 50px;
+left: 145px;
 width: 70px;
 height: 70px;
 z-index: 1;
 }
 .boutonscrollplantejaune{
-    position: fixed;
-    top: 625px;
-left: 1825px;
+    position: absolute;
+    top: 50px;
+left: 145px;
 width: 70px;
 height: 70px;
 z-index: 8;
@@ -3202,9 +5095,9 @@ z-index: 1;
 }
 
 .scrollplante{
-    position: fixed;
-    top: 620px;
-    left: 1760px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
     text-align: left;
 font-family: azo-sans-web, sans-serif;
 font-style: normal;
@@ -3219,7 +5112,7 @@ z-index: 0;
 }
 
 .boutonsplante:hover .scrollplante{
-    left:1685px;
+    left:-1px;
     opacity: 1;
     
 }
@@ -3229,9 +5122,9 @@ opacity: 1;
 }
 
 .boutonscrollpiece{
-    position: fixed;
-    top: 725px;
-left: 1825px;
+    position: absolute;
+    top: 150px;
+left: 145px;
 width: 70px;
 height: 70px;
 z-index: 1;
@@ -3239,9 +5132,9 @@ z-index: 1;
 
 }
 .boutonscrollpiecejaune{
-    position: fixed;
-    top: 725px;
-left: 1825px;
+    position: absolute;
+    top: 150px;
+left: 145px;
 width: 70px;
 height: 70px;
 z-index: 8;
@@ -3254,14 +5147,14 @@ opacity: 1;
 }
 
 .boutonspiece:hover .scrollbudget{
-    left:1755px;
+    left:65px;
     opacity: 1;
 }
 
 .scrollbudget{
-    position: fixed;
-    top:720px;
-    left:1825px;
+    position: absolute;
+    top:145px;
+    left:150px;
     text-align: left;
 font-family: azo-sans-web, sans-serif;
 font-style: normal;
@@ -3275,22 +5168,14 @@ z-index: 0;
 }
 
 
-.block{
-    position: absolute;
-    left: 1680px;
-    top:320px;
-    height: 300px;
-    width:0px;
-    border: 130px solid #000023;
-   box-shadow: 0 0 20px 20px #000023;
-   z-index: 2;
-}
+
+
  .imgblock{
     position: absolute;
     left: -130px;
     top: -120px;
-    height: 558px;
-    width: 258px;
+    height: 560px;
+    width: 260px;
 
 
 }
@@ -3298,70 +5183,72 @@ z-index: 0;
 
 .fondetoiles{
     position: absolute;
+    position: fixed;
     z-index: 0;
 }
-
 .fondetoiles2{
     position: absolute;
-    top: 1500px;
+    opacity: 0.5;
+    z-index: -1;
 }
-
 .fondetoiles3{
     position: absolute;
-    top: 2200px;
+    opacity: 0.5;
+    z-index: -1;
+    height: 2000px;
+    width: 100%;
 }
 
-.fondetoiles4{
-    position: absolute;
-    top: 3200px;
-}
+
+
+
 
 .socle{
 position: absolute;
-top: 600px;
-left: 800px;
+top: 55%;
+left: 0;
 }
 
 .dataviz0{
 position: absolute;
-left: 800px;
-top: 250px;
+left: 0;
+top: -30%;
 z-index: 8;
 }
 .dataviz1{
 position: absolute;
 opacity: 0;
-left: 800px;
-top: 250px;
+left: 0;
+top: -30%;
 z-index: 8;
 }
 .dataviz2{
 position: absolute;
 opacity: 0;
-left: 800px;
-top: 250px;
+left: 0;
+top: -30%;
 z-index: 8;
 }
 .dataviz3{
 position: absolute;
 opacity: 0;
-left: 800px;
-top: 250px;
+left: 0;
+top: -30%;
 z-index: 8;
 }
 .dataviz4{
 position: absolute;
 opacity: 0;
-left: 800px;
-top: 250px;
+left: 0;
+top: -30%;
 z-index: 8;
 }
 
 
 .btn1{
     position:absolute;
-    top: 400px;
-left: 830px;
+    top: 5%;
+left: 6%;
 width: 80px;
 height: 60px;
 background: transparent ;
@@ -3371,8 +5258,8 @@ z-index: 10;
 }
 .btn2{
     position:absolute;
-    top: 480px;
-left: 900px;
+    top: 25%;
+left: 19%;
 width: 80px;
 height: 50px;
 background: transparent 0% 0% no-repeat padding-box;
@@ -3382,8 +5269,8 @@ z-index: 8;
 }
 .btn3{
     position:absolute;
-    top: 415px;
-left: 975px;
+    top: 10%;
+left: 34%;
 width: 80px;
 height: 50px;
 background: transparent 0% 0% no-repeat padding-box;
@@ -3393,8 +5280,8 @@ z-index: 8;
 }
 .btn4{
     position:absolute;
-    top: 473px;
-left: 1040px;
+    top: 24%;
+left: 48%;
 width: 80px;
 height: 50px;
 background: transparent 0% 0% no-repeat padding-box;
@@ -3404,8 +5291,8 @@ z-index: 8;
 }
 .btn5{
     position:absolute;
-    top: 408px;
-left: 1105px;
+    top: 8%;
+left: 58%;
 width: 80px;
 height: 50px;
 background: transparent 0% 0% no-repeat padding-box;
@@ -3415,8 +5302,8 @@ z-index: 8;
 }
 .btn6{
     position:absolute;
-    top: 470px;
-left: 1182px;
+    top: 23%;
+left: 75%;
 width: 80px;
 height: 50px;
 background: transparent 0% 0% no-repeat padding-box;
@@ -3426,8 +5313,8 @@ z-index: 8;
 }
 .btn7{
     position:absolute;
-    top: 402px;
-left: 1252px;
+    top: 8%;
+left: 88%;
 width: 80px;
 height: 50px;
 background: transparent 0% 0% no-repeat padding-box;
@@ -3437,8 +5324,8 @@ z-index: 8;
 }
 .btn8{
     position:absolute;
-    top: 444px;
-left: 1333px;
+    top: 18%;
+left: 103%;
 width: 80px;
 height: 60px;
 background: transparent 0% 0% no-repeat padding-box;
