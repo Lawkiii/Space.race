@@ -117,12 +117,17 @@ html{
 }
 
 
- 
+ /* @media(prefer-color-scheme:light){
+    .favicon{
+        fill:black 
+    }
+ } */
 
 @media screen and (max-width: 1910px) and (min-width: 1725px){
     #couleur1{
         left: 2% !important;
         right: 2%!important;
+        
     }
 
 }
@@ -5277,7 +5282,7 @@ width: 880px;
 height: 359px;
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
-font-family: 'azo-sans-web';
+font-family: 'azo-sans-web-light';
     font-style: normal;
     font-weight: 200;
 text-align: left;
@@ -5294,7 +5299,7 @@ width: 880px;
 height: 314px;
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
-font-family: 'azo-sans-web';
+font-family: 'azo-sans-web-light';
     font-style: normal;
     font-weight: 200;
 text-align: left;
